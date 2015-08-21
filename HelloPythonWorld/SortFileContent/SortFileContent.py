@@ -19,4 +19,3 @@ for file in filename:
     for i in content:
         f.write(i)
     f.close
-    
