@@ -64,7 +64,7 @@ def getlist(path):
             filetype = filetypetemp[-1]
             statinfo=os.stat(filelist)
             timestamp = min(statinfo.st_mtime,statinfo.st_ctime)
-            newname = str(time.strftime('%Y-%m-%d %H%M%S_',time.localtime(timestamp)))  +str(random.randint(100, 999))+' .' + filetype
+            newname = str(time.strftime('%Y-%m-%d %H%M%S,',time.localtime(timestamp)))  +str(random.randint(100, 999))+' .' + filetype
             newfilelist = os.path.join(parent,newname)
             changelist[filelist] = newfilelist
             reversedlist[newfilelist]=filelist
