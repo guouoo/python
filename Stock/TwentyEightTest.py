@@ -15,7 +15,7 @@ import matplotlib
 
 universe = ('399004','399300','399337','399610','399008','399006')
 start = '2010-11-08'
-end = '2016-01-04'
+end = '2014-11-06'
 benchmark ='399300'
 capital = 1000000
 tradecostrate = decimal.Decimal('0.001')
@@ -341,8 +341,8 @@ def drw():
     plt.ylabel("$Return Rate(\%)$",fontsize='large')
     maxtemp = 25 * (int(max(max(InfoSeri.culrate.values()),max(Benchmark.culreturn.values()))/25)+2)
     mintemp = 25 * (int(min(min(InfoSeri.culrate.values()),min(Benchmark.culreturn.values()))/25)-1)
-    plt.text(min(x)+dt.timedelta(days=days), maxtemp*0.8, noteslabel,fontproperties=font, ha='left', va='top')
-    plt.text(min(x)+dt.timedelta(days=days), maxtemp*0.7, noteslabel2,fontproperties=font, ha='left', va='top')    
+    plt.text(min(x)+dt.timedelta(days=days), maxtemp*0.7, noteslabel,fontproperties=font, ha='left', va='top')
+    plt.text(min(x)+dt.timedelta(days=days), maxtemp*0.6, noteslabel2,fontproperties=font, ha='left', va='top')
     plt.ylim(mintemp,maxtemp)
     plt.legend(handles=[portfolioline,benchline], loc=2,borderaxespad=0.)
     plt.show()
