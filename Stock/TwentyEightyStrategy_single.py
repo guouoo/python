@@ -20,6 +20,10 @@ logging.basicConfig(
     format="%(levelname)s: %(message)s"
 )
 
+class Message:
+    def info(self,info):
+        self.info = info
+
 def connDB():
     conn=pymysql.connect(host='localhost',user='root',passwd='6619',db='tradeinfo',charset='utf8')
     cur=conn.cursor();
@@ -80,7 +84,6 @@ for i in days:
         if i == datetime.date.isoformat(k[1]):
             dailyprice[k[0]] = k[2]
     content[i] = dailyprice
-
 #计算Return
 dailyreturn={}
 try:
@@ -95,9 +98,11 @@ except Exception as e:
 connClose(conn,cur)
 
 #打印标题
+Message.info = ''
 size = 25
-print('二八趋势轮动策略模型： ' + str(time.strftime( "%Y-%m-%d %H:%M:%S", time.localtime(time.time()))))
-
+title = '二八趋势轮动策略模型： ' + str(time.strftime( "%Y-%m-%d %H:%M:%S", time.localtime(time.time())))
+print(title)
+Message.info += title +'\n'
 
 #预定义指数与ETF关系，(f-)表示流动性差，(c)表示大成C类型基金
 fund = {'399004':'159901 & 150018+150019','399102':'Null','399006':'159915 & 150152+150153','399610':'159909(f-)','399008':'159907(f-) & 270026(c)','399337':'159911(f-)','399005':'159902','399300':'159919 & 510300 & 270010(c)','399001':'159903','399330':'159901 & 150083+150084(f-)'}
@@ -106,14 +111,18 @@ fundname = {'399004':'深证100R','399330':'深证100','399300':'沪深300','399
 #输出计算结果
 temp = sorted(days,reverse=True)
 temp.reverse()
+
 for i in temp:
-    print('-'*(size-10)+ i +'-'*(size+10))
+    lines = '-'*(size-10)+ i +'-'*(size+10)
+    Message.info  += lines + '\n'
+    print(lines)
     returntemp =  sorted(dailyreturn[i].items(), key=lambda d: d[1],reverse=True)
     for n in range(0,len(returntemp)):
         if returntemp[n][1] > 0:
-            print(str(n+1) + ' .  ' +str(returntemp[n][0]) + ' '
-                  + str(fundname[returntemp[n][0]]) +': ' + str(returntemp[n][1]) + '%  >>> '
-                  + fund[returntemp[n][0]])
+            temp = str(n+1) + ' .  ' +str(returntemp[n][0]) + ' ' + str(fundname[returntemp[n][0]]) +': ' + str(returntemp[n][1]) + '%  >>> '+ fund[returntemp[n][0]]
+            print(temp)
+            Message.info  +=  temp+ '\n'
         else:
-            print(str(n+1) + ' .  ' +str(returntemp[n][0]) + ' '
-                  + fundname[returntemp[n][0]] +': ' + str(returntemp[n][1])  + '%')
+            temp = str(n+1) + ' .  ' +str(returntemp[n][0]) + ' ' + fundname[returntemp[n][0]] +': ' + str(returntemp[n][1])  + '%'
+            print(temp)
+            Message.info  +=  temp+ '\n'

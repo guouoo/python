@@ -14,14 +14,14 @@ import matplotlib
 # import pandas as pd
 
 universe = ('399004','399300','399337','399610','399008','399006')
-start = '2010-11-08'
-end = '2014-11-06'
+start = '2014-11-08'
+end = '2016-01-07'
 benchmark ='399300'
 capital = 1000000
 tradecostrate = decimal.Decimal('0.001')
 tradecost = 0
 frequncy = 1
-period = 20
+period = 5
 rf = 2.3332
 
 class Account:
@@ -327,7 +327,7 @@ def formatdrw(dnary):
 def drw():
     font = matplotlib.font_manager.FontProperties(fname=r"c:\windows\fonts\msyh.ttf", size=13)
     x = sorted(list(InfoSeri.culrate)) 
-    days = int(len(x)*0.2)    
+    days = int(len(x)*0.15)
     portfolio = formatdrw(InfoSeri.culrate)
     bench = formatdrw(Benchmark.culreturn)  
     plt.figure(figsize=(12,6.75))
