@@ -157,11 +157,13 @@ def operation(opdata):
         oplist[i[0]] = 0
     if opdata[0][1] > 0:
         oplist[opdata[0][0]] = 1
+    # logging.debug(opdata)
+    # logging.debug(oplist)
     return oplist 
 
 def trade(tradedata,oplist):
     holdstock = account.stocks
-    for symbol in holdstock:
+    for symbol in holdstock: #获取持仓情况
         if holdstock[symbol] > 0: 
             account.position = symbol
             break
