@@ -3,8 +3,6 @@ Created on Nov 24, 2015
 
 @author: tguo
 '''
-
-
 # coding=UTF-8
 
 # import MySQLdb

@@ -4,24 +4,26 @@ Created on Dec 11, 2015
 @author: tguo
 '''
 # coding=UTF-8
-from statdata.connectdb import connDB,exeQuery,connClose
 import datetime as dt
 import decimal
 import numpy as np
 import math
 import matplotlib.pyplot as plt
 import matplotlib
+import os
+import pymysql
+import logging
 # import pandas as pd
 
 universe = ('399004','399300','399337','399610','399008','399006')
-start = '2014-11-08'
-end = '2016-01-07'
+start = '2015-01-01'
+end = '2016-01-12'
 benchmark ='399300'
 capital = 1000000
 tradecostrate = decimal.Decimal('0.001')
 tradecost = 0
 frequncy = 1
-period = 5
+period = 20
 rf = 2.3332
 
 class Account:
@@ -49,6 +51,30 @@ class Benchmark:
         self.std = std
     def annualizedreturns(self,annualizedreturns):
         self.annualizedreturns = annualizedreturns
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    # format="[%(asctime)s] %(name)s:%(levelname)s: %(message)s"
+    format="%(levelname)s: %(message)s"
+)
+
+def connDB():
+    conn=pymysql.connect(host='localhost',user='root',passwd='6619',db='tradeinfo',charset='utf8')
+    cur=conn.cursor();
+    return (conn,cur);
+
+def exeQuery(cur,sql):
+    cur.execute(sql);
+    return (cur);
+
+def exeUpdate(cur,sql):
+    sta=cur.execute(sql);
+    return(sta);
+
+def connClose(conn,cur):
+    cur.close();
+    conn.commit();
+    conn.close();
  
 def calbenchmark(start,end,symbol):
     conn,cur=connDB()
@@ -104,7 +130,8 @@ class InfoSeri:
     def beta(self,beta):
         self.beta = beta
     def alpha(self,alpha):
-        self.beta = alpha                        
+        self.alpha = alpha
+
                         
 def Initialize(account): 
 #     account = Account()
@@ -130,11 +157,13 @@ def operation(opdata):
         oplist[i[0]] = 0
     if opdata[0][1] > 0:
         oplist[opdata[0][0]] = 1
+    # logging.debug(opdata)
+    # logging.debug(oplist)
     return oplist 
 
 def trade(tradedata,oplist):
     holdstock = account.stocks
-    for symbol in holdstock:
+    for symbol in holdstock: #获取持仓情况
         if holdstock[symbol] > 0: 
             account.position = symbol
             break
@@ -318,10 +347,10 @@ def getreturn(accountinfo):
     InfoSeri.alpha = InfoSeri.annualizedreturns - rf - InfoSeri.beta*(Benchmark.annualizedreturns - rf) 
 
 def formatdrw(dnary):
-    temp = [(k,dnary[k]) for k in sorted(dnary.keys())] 
+    temp = [(k,dnary[k]) for k in sorted(dnary.keys())]
     temp1 = []
     for i in temp:
-        temp1.append(i[1]) 
+        temp1.append(i[1])
     return temp1
 
 def drw():
@@ -335,7 +364,7 @@ def drw():
     benchline,  = plt.plot(x,bench,label="$Benchmark$",color="blue",linewidth=2,linestyle='-')
     noteslabel =  '年化收益：' + str(InfoSeri.annualizedreturns) +'%    ' + '最大回撤：'+ str(InfoSeri.maxdown) +'%    '+ '基准年化：'+ str(Benchmark.annualizedreturns) +'%    '+ '收益波动：'+ str(round(InfoSeri.volatility,2)) +'%    '
     noteslabel2 = '夏普比率：'+ str(round(InfoSeri.sharp,2))+ '    阿尔法：'+ str(round(InfoSeri.alpha,2))+ '    贝塔：'+ str(round(InfoSeri.beta,2))
-#     plt.xlabel("$Date$",fontsize='large')    
+#     plt.xlabel("$Date$",fontsize='large')
     plt.title("$Cumulative  Return(\%)$",fontsize='large')
 #     plt.title(u'累计收益率(%)', fontproperties=font)
     plt.ylabel("$Return Rate(\%)$",fontsize='large')
@@ -348,9 +377,37 @@ def drw():
     plt.show()
 
 def savedata():
-    
-    pass
-    
+    if not os.path.isdir('Log'):
+        os.makedirs('Log')
+    filename  = 'Log/' + str(dt.datetime.now().strftime("%Y-%m-%d %H%M%S"))
+    with open(filename  + '.log', 'w') as f:
+        f.write('Universe: ' + str(universe) + '\n'
+                + 'Start Date: ' + str(start)+ '\n'
+                + 'End Date:   ' + str(end) +'\n'
+                + 'Period: ' + str(period)+ '\n'
+                + '*'*100 + '\n'
+                )
+        f.write( '年化收益：' + str(InfoSeri.annualizedreturns) +'%' + '\n'
+                 + '最大回撤：'+ str(InfoSeri.maxdown) +'%'+ '\n'
+                 + '基准年化：'+ str(Benchmark.annualizedreturns) +'%'+ '\n'
+                 + '收益波动：'+ str(round(InfoSeri.volatility,2)) +'%'+ '\n'
+                 + '夏普比率：'+ str(round(InfoSeri.sharp,2))+ '\n'
+                 + '阿尔法：'+ str(round(InfoSeri.alpha,2))+ '\n'
+                 + '贝塔：'+ str(round(InfoSeri.beta,2))+ '\n'
+                 + '*'*100 + '\n'
+                 )
+    with open(filename + '.csv', 'w') as g:
+        g.write('Date,Total,Cash,Hold Number,Code\n')
+        for i in accountinfo:
+            g.write( i[0].isoformat()
+                     +',' + str(round(i[1],2))
+                     +','+ str(round(i[2],2))
+                     +','+ str(round(i[3],0))
+                     +','+ i[4]
+                     + '\n'
+                     )
+
+
 if __name__ == "__main__":
     account = Account()
     Initialize(account)
@@ -358,5 +415,4 @@ if __name__ == "__main__":
     strategygo(start,end)
     getreturn(accountinfo)
     drw()
-#     print(accountinfo)
-#     savedata()
+    savedata()
