@@ -9,7 +9,7 @@ end = '2016-01-12'
 # benchmark ='399300'
 capital = 1000000
 tradecostrate = 0.001
-macd = {'short':12,'long':26,'m':9}
+macd = {'short':10,'long':20,'m':7}
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -20,5 +20,5 @@ logging.basicConfig(
 if __name__ == "__main__":
 
     temp = getPrice(universe,start,end)
-    logging.debug(temp)
+
     calcMACD(macd,temp)
