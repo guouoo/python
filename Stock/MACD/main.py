@@ -1,15 +1,16 @@
 # coding=UTF-8
 import logging
+import datetime
 from LoadData import getPrice
-from CalcMACD import calcMACD
+from CalcMACD import draw
 
 universe = '399006'
 start = '2015-01-01'
-end = '2016-01-12'
+end = datetime.datetime.now().strftime("%Y-%m-%d")
 # benchmark ='399300'
 capital = 1000000
 tradecostrate = 0.001
-macd = {'short':10,'long':20,'m':7}
+macd = {'short':13,'long':26,'m':9}
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -18,7 +19,5 @@ logging.basicConfig(
 )
 
 if __name__ == "__main__":
-
     temp = getPrice(universe,start,end)
-
-    calcMACD(macd,temp)
+    draw(macd,temp)

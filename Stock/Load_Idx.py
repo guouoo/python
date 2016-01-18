@@ -20,15 +20,16 @@ def DownloadPrice(table):
     dateinfo = exeQuery(cur,'select symbol,max(Date) FROM tradeinfo.'+ table +' group by symbol order by symbol').fetchall()
     maxdate=dict(dateinfo)
     symbolList=tuple(maxdate)
-    
-    enddate = time.strftime( '%Y%m%d', time.localtime( time.time() ) ) 
+    enddate = time.strftime( '%Y%m%d', time.localtime( time.time() ) )
+
     for k in range(0,len(symbolList)) :
         startdate = str(maxdate[symbolList[k]]+datetime.timedelta(days = 1)).replace('-','')
+        # print(symbolList[k] + ' ' + startdate + ' ' + enddate )
         if startdate >= enddate:
             continue
         url = 'http://quotes.money.163.com/service/chddata.html?code=1'+symbolList[k]+'&start='+startdate +'&end='+ enddate
-#         print(url)        
-        
+#         print(url)
+
         local = path + symbolList[k] +'.txt'
         try:
             urllib.request.urlretrieve(url, local)
