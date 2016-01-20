@@ -78,7 +78,7 @@ Pricedata  = np.array(sorted(temp,key=lambda l:l[2], reverse=True)).reshape(len(
 
 #输出日历史收益表
 sqlcontent1 = sqlcontent[:,[0,1,5]]
-# title = ['    Symbol        ','    Name        ','Return_20days']    
+# title = ['    Symbol        ','    Name        ','Return_20days']
 # returndata = pd.DataFrame(sqlcontent1,index=None,columns = title)
 # # print(dates.sort_values(axis=0, by=['Return_20days'], ascending=False))
 # print(returndata)

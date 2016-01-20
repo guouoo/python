@@ -23,7 +23,7 @@ def getPrice(universe,start,end):
            where symbol = \'' + universe + '\''
     temp = list(exeQuery(cur,sql0))
 
-    sql = 'select Date,openprice,highprice,lowprice,closeprice ' \
+    sql = 'select date,openprice,highprice,lowprice,closeprice ' \
           'from ' + temp[0][0] +  \
           ' where symbol = \'' + universe + '\' and date >= \'' + start + '\'' \
           ' and date <= \'' + end + '\' order by date asc'

@@ -375,6 +375,7 @@ def drw():
     plt.ylim(mintemp,maxtemp)
     plt.legend(handles=[portfolioline,benchline], loc=2,borderaxespad=0.)
     plt.show()
+    # plt.savefig('test',format = 'pdf',dpi=1000,box_inches='tight')
 
 def savedata():
     if not os.path.isdir('Log'):
