@@ -98,21 +98,24 @@ def relative_strength(prices, n=14):
 def s_roc(prices,emaday=13,rocday=20):
     price = np.array(prices,dtype='f8')
     ema = talib.EMA(price,emaday)
-    sroc = []
+    roc = []
     pt = ema[emaday -1 :len(prices) - rocday]
     ph = ema[emaday + rocday -1 : len(prices)]
     temp = pt/ph*100.00
     for i in range(1,emaday + rocday ):
-        sroc.append(np.nan)
-    sroc =  np.array(sroc)
-    sroc = np.append(sroc,temp,axis = 0)
-    return sroc
-
-# data = [3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40]
-# a =  s_roc(data)
-# # a = relative_strength(data,4)
-# logging.debug(a)
-
+        roc.append(np.nan)
+    sroc = np.append(np.array(roc),temp,axis = 0)
+    temp2 = list(temp)
+    temp3=[0]
+    for i in range(1,len(temp2)-1):
+        if (temp2[i-1] - temp2[i])*(temp2[i]-temp2[i+1]) < 0:
+            temp3.append(temp2[i])
+        else:
+            temp3.append(0)
+    temp3.append(0)
+    temp5 = np.array(temp3)
+    peak = np.append(np.array(roc),temp5,axis = 0)
+    return sroc, peak
 
 def draw(setting,data):
 #初始化图标形状
@@ -121,10 +124,10 @@ def draw(setting,data):
 
     textsize = 10
     left, width = 0.05, 0.9
-    rect1 = [left, 0.8, width, 0.15]
-    rect2 = [left, 0.45, width, 0.35]
-    rect3 = [left, 0.3, width, 0.15]
-    rect4 = [left, 0.1, width, 0.2]
+    rect1 = [left, 0.8, width, 0.20]
+    rect2 = [left, 0.43, width, 0.37]
+    rect3 = [left, 0.23, width, 0.2]
+    rect4 = [left, 0.03, width, 0.2]
 
 # 设置图标宽高和背景颜色
     fig = plt.figure(facecolor='white',figsize=[12,8])
@@ -201,12 +204,13 @@ def draw(setting,data):
     candlestick_ohlc(ax2, df2,width=0.8,colorup = 'red' ,colordown ='green', alpha=1)
 
 #  绘制S_ROC线
-    emaday = 10
-    rocday = 20
-    sroc = s_roc(prices,emaday,rocday)
+    emaday = 7
+    rocday = 13
+    sroc,peak = s_roc(prices,emaday,rocday)
     ax3.axhline(100, color=fillcolor)
     ax3.plot(df.index,sroc,lw=1,label='S_ROC',color="brown")
-    ax3.set_ylim(50, 150)
+    ax3.scatter(df.index,peak, marker='x',c='r',s = 50,label='Change',)
+    ax3.set_ylim(60, 140)
     ax3.set_yticks([80,100,120])
     ax3.text(0.025, 0.95, 'S_ROC(EMA%d,ROC%d)' % (emaday, rocday), va='top', transform=ax3.transAxes, fontsize=textsize)
 
@@ -234,8 +238,8 @@ def draw(setting,data):
                 label.set_visible(False)
         else:
             for label in ax.get_xticklabels():
-                label.set_rotation(30)
-                label.set_horizontalalignment('right')
+                label.set_rotation(0)
+                label.set_horizontalalignment('left')
         ax.fmt_xdata = mdates.DateFormatter('%Y-%m-%d')
 
     plt.show()
