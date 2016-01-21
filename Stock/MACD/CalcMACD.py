@@ -201,8 +201,8 @@ def draw(setting,data):
     candlestick_ohlc(ax2, df2,width=0.8,colorup = 'red' ,colordown ='green', alpha=1)
 
 #  绘制S_ROC线
-    emaday = 10
-    rocday = 20
+    emaday = 7
+    rocday = 14
     sroc = s_roc(prices,emaday,rocday)
     ax3.axhline(100, color=fillcolor)
     ax3.plot(df.index,sroc,lw=1,label='S_ROC',color="brown")
