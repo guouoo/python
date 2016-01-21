@@ -5,7 +5,7 @@ from LoadData import getPrice
 import CalcMACD as calc
 
 universe = '399006'
-start = '2015-08-01'
+start = '2015-05-01'
 end = datetime.datetime.now().strftime("%Y-%m-%d")
 # benchmark ='399300'
 capital = 1000000
