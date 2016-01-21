@@ -124,7 +124,7 @@ def draw(setting,data):
 
     textsize = 10
     left, width = 0.05, 0.9
-    rect1 = [left, 0.8, width, 0.20]
+    rect1 = [left, 0.8, width, 0.19]
     rect2 = [left, 0.43, width, 0.37]
     rect3 = [left, 0.23, width, 0.2]
     rect4 = [left, 0.03, width, 0.2]
@@ -210,7 +210,7 @@ def draw(setting,data):
     ax3.axhline(100, color=fillcolor)
     ax3.plot(df.index,sroc,lw=1,label='S_ROC',color="brown")
     ax3.scatter(df.index,peak, marker='x',c='r',s = 50,label='Change',)
-    ax3.set_ylim(60, 140)
+    ax3.set_ylim(70, 150)
     ax3.set_yticks([80,100,120])
     ax3.text(0.025, 0.95, 'S_ROC(EMA%d,ROC%d)' % (emaday, rocday), va='top', transform=ax3.transAxes, fontsize=textsize)
 
@@ -243,5 +243,3 @@ def draw(setting,data):
         ax.fmt_xdata = mdates.DateFormatter('%Y-%m-%d')
 
     plt.show()
-
-    return hist
