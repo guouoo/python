@@ -5,7 +5,7 @@ Created on Dec 10, 2015
 '''
 # coding=UTF-8
 
-#倒入支持库文件
+#导入支持库文件
 import pymysql
 import urllib.request
 import re
@@ -25,7 +25,7 @@ class Message:
         self.info = info
 
 def connDB():
-    conn=pymysql.connect(host='localhost',user='root',passwd='6619',db='tradeinfo',charset='utf8')
+    conn=pymysql.connect(host='localhost',user='root',passwd='66196619',db='data',charset='utf8')
     cur=conn.cursor();
     return (conn,cur);
 
@@ -43,13 +43,14 @@ def connClose(conn,cur):
     conn.close();
 
 conn,cur=connDB()#连接数据库 
-universe = ('399102','399004', '399006', '399610', '399008', '399337', '399005', '399300','399330','399001') #定义Universe
+universe = ('510500','159901','159919','159902','159937','518880','510500','511010','159915','159905','159903','510900') #定义Universe
 
 #获取Universe内所有指数实时价格
 realtimeprice = []
 headers = {'User-Agent' : 'Mozilla/10 (compatible; MSIE 1.0; Windows NT 4.0)'}
-codes = str(universe).replace('\'','').replace(',',',s_sz').replace('(','').replace(')','').replace(' ','')
-url2 = 'http://qt.gtimg.cn/q=s_sz'+ codes
+# codes = str(universe).replace('\'1',',s_sz1').replace('\'5',',s_sh5').replace('\'','').replace('(','').replace(')','').replace(' ','')codes = str(universe).replace('\'1',',s_sz1').replace('\'5',',s_sh5').replace('\'','').replace('(','').replace(')','').replace(' ','')
+codes = str(universe).replace('\'','').replace('(','').replace(')','').replace(' ','').replace(',1',',s_sz1').replace(',5',',s_sh5')
+url2 = 'http://qt.gtimg.cn/q=s_sh'+ codes
 try:
     request = urllib.request.Request(url2,headers = headers)
     response = urllib.request.urlopen(request).read().decode('gbk')

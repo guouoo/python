@@ -12,7 +12,7 @@ import os
 import re
 import pymysql 
 
-path ='d:/src/price3/' #下载、处理和导入数据路径
+path ='C:/src/' #下载、处理和导入数据路径
 
 def DownloadPrice(table):
     conn,cur=connDB() 
@@ -44,7 +44,7 @@ def DownloadPrice(table):
 
 
 def connDB(): #连接数据库函数
-    conn=pymysql.connect(host='localhost',user='root',passwd='6619',db='tradeinfo',charset='utf8')
+    conn=pymysql.connect(host='localhost',user='root',passwd='66196619',db='data',charset='utf8')
     cur=conn.cursor();
     return (conn,cur);
 
@@ -112,4 +112,5 @@ def LoadDataToDB(table):
     connClose(conn, cur)
     print('''########################################''' +'\n' + table + ' is updated to latest status.' +'\n' + '''########################################''')
 
-DownloadPrice('his_idx')                       
+# DownloadPrice('his_idx')
+LoadDataToDB('his_idx')

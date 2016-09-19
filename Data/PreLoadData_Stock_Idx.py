@@ -12,12 +12,12 @@ import os
 import re
 import pymysql 
 
-path ='d:/src/price2/' #Stock 下载、处理和导入数据路径
+path ='C:/src2/' #Stock 下载、处理和导入数据路径
 
 def DownloadPrice(table):
     conn,cur=connDB() 
     
-    Historylist = open('PreLoadList', mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
+    Historylist = open(table, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
     symbolList=Historylist.readlines()
     print(symbolList)
     
@@ -43,7 +43,7 @@ def DownloadPrice(table):
 
     connClose(conn, cur)
     FormatFiles()
-    LoadDataToDB(table)
+    # LoadDataToDB(table)
     return
 
 def formatnumber(val):
@@ -56,7 +56,7 @@ def formatnumber(val):
     return val
 
 def connDB(): #连接数据库函数
-    conn=pymysql.connect(host='localhost',user='root',passwd='6619',db='tradeinfo',charset='utf8')
+    conn=pymysql.connect(host='localhost',user='root',passwd='66196619',db='data',charset='utf8')
     cur=conn.cursor();
     return (conn,cur);
 
@@ -104,7 +104,8 @@ def LoadDataToDB(table):
         stock = open(path+filename, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
         hisprice = stock.readlines()
         for j in range(0,len(hisprice)):
-            istsql = 'insert into '+ table +' values '+ hisprice[j]
+            istsql = 'insert into '+ table \
+                     +' (date,symbol,names,closeprice,highprice,lowprice,openprice,precloseprice,chg,chgrate,turnover,volume,amount,marketcap,trademktcap,orders) values '+ hisprice[j]
     #         print(istsql)
             try:
                 conn.cursor().execute(istsql)
@@ -114,15 +115,17 @@ def LoadDataToDB(table):
         conn.commit();
         print(filename + ' is loaded into database.')
         stock.close()
-        try: 
-            os.remove(path + filename)
-            print(filename + ' is deleted.')
-        except Exception as e:
-            print(e)
+        # try:
+        #     os.remove(path + filename)
+        #     print(filename + ' is deleted.')
+        # except Exception as e:
+        #     print(e)
     connClose(conn, cur)
     print('''########################################''' +'\n' + table + ' is updated to latest status.' +'\n' + '''########################################''')
 
 
-DownloadPrice('his_pris_stk')
+# DownloadPrice('his_idx')
 
+LoadDataToDB('his_stk')
+# FormatFiles()
                           
