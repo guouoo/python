@@ -12,7 +12,7 @@ import os
 import re
 import pymysql 
 
-path ='C:/src2/' #Stock 下载、处理和导入数据路径
+path ='C:/src3/' #Stock 下载、处理和导入数据路径
 
 def DownloadPrice(table):
     conn,cur=connDB() 
@@ -43,7 +43,7 @@ def DownloadPrice(table):
 
     connClose(conn, cur)
     FormatFiles()
-    # LoadDataToDB(table)
+    LoadDataToDB(table)
     return
 
 def formatnumber(val):
@@ -78,25 +78,50 @@ def connClose(conn,cur):#关闭所有连接
     conn.commit();
     conn.close();
 
+# def FormatFiles():
+#     for filename in os.listdir(path):
+#         stockprice = open(path+filename, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
+#         content = stockprice.readlines()
+#         del content[0]
+#         for r in range(0,len(content)):
+#             content[r] = re.sub('\'','',content[r]).strip()
+#             list = content[r].split(',')
+#             for i in range(3,16):
+#                 list[i] = formatnumber(list[i])
+#             line = str(list).replace('[','(').replace(']',')')
+#             content[r] = line
+#         stockprice.close()
+#
+#         stockvalue = open(path+filename, mode='w+', encoding=None, errors=None, newline=None, closefd=True, opener=None)
+#         for r2 in range(0,len(content)):
+#             stockvalue.writelines(content[r2]+'\n')
+#         stockvalue.close()
+#         print(filename + ' is formated.')
 def FormatFiles():
     for filename in os.listdir(path):
-        stockprice = open(path+filename, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
+        stockprice = open(path + filename, mode='r', encoding=None, errors=None, newline=None, closefd=True,
+                          opener=None)
         content = stockprice.readlines()
         del content[0]
-        for r in range(0,len(content)): 
-            content[r] = re.sub('\'','',content[r]).strip()
-            list = content[r].split(',')  
-            for i in range(3,16):
-                list[i] = formatnumber(list[i])
-            line = str(list).replace('[','(').replace(']',')')
-            content[r] = line    
+        for r in range(0, len(content)):
+            content[r] = re.sub('\'', '', content[r]).strip()
+            list = content[r].split(',')
+            del list[2]
+            del list[6:8]
+            del list[7]
+            del list[8]
+            # del list[9:]
+            #             for i in range(3,16):
+            #                 list[i] = formatnumber(list[i])
+            line = str(list).replace('[', '(').replace(']', ')').replace('None', '0')
+            content[r] = line
         stockprice.close()
-         
-        stockvalue = open(path+filename, mode='w+', encoding=None, errors=None, newline=None, closefd=True, opener=None)
-        for r2 in range(0,len(content)):
-            stockvalue.writelines(content[r2]+'\n')
+
+        stockvalue = open(path + filename, mode='w+', encoding=None, errors=None, newline=None, closefd=True,
+                          opener=None)
+        for r2 in range(0, len(content)):
+            stockvalue.writelines(content[r2] + '\n')
         stockvalue.close()
-        print(filename + ' is formated.')
 
 def LoadDataToDB(table):
     conn,cur=connDB()      
@@ -105,7 +130,7 @@ def LoadDataToDB(table):
         hisprice = stock.readlines()
         for j in range(0,len(hisprice)):
             istsql = 'insert into '+ table \
-                     +' (date,symbol,names,closeprice,highprice,lowprice,openprice,precloseprice,chg,chgrate,turnover,volume,amount,marketcap,trademktcap,orders) values '+ hisprice[j]
+                     +' (date,symbol,closeprice,highprice,lowprice,openprice,chgrate,volume,marketcap,trademktcap,orders) values '+ hisprice[j]
     #         print(istsql)
             try:
                 conn.cursor().execute(istsql)
@@ -125,7 +150,7 @@ def LoadDataToDB(table):
 
 
 # DownloadPrice('his_idx')
-
+# DownloadPrice('his_stk')
 LoadDataToDB('his_stk')
 # FormatFiles()
                           

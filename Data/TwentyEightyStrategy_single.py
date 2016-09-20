@@ -48,22 +48,24 @@ universe = ('510500','159901','159919','159902','159937','518880','510500','5110
 #获取Universe内所有指数实时价格
 realtimeprice = []
 headers = {'User-Agent' : 'Mozilla/10 (compatible; MSIE 1.0; Windows NT 4.0)'}
-codes = str(universe).replace('\'','').replace(',',',s_sz').replace('(','').replace(')','').replace(' ','')
-url2 = 'http://qt.gtimg.cn/q=s_sz'+ codes
-logging.info(url2)
+codes = str(universe).replace('\'','').replace(', 1',',s_sz1').replace(', 5',',s_sh5').replace('(','').replace(')','')
+url2 = 'http://qt.gtimg.cn/q=s_sh'+ codes
+# logging.info(url2)
 try:
     request = urllib.request.Request(url2,headers = headers)
     response = urllib.request.urlopen(request).read().decode('gbk')
-    reobj= re.compile('v_s_sz.*?~.*?~')
+    reobj= re.compile('v_s_s.*?~.*?~')
     realtemp = reobj.sub('',response).replace('~~";','').replace('\n','~').strip().split('~')
+    # logging.info(realtemp)
     realtimeprice ={}
     for i in range(0,len(realtemp)-1,6):
         realtimeprice[realtemp[i]] = Decimal(realtemp[i+1])
 except Exception as e:
     print(e)
 
+
 #获取daylist所列回溯日期收盘价
-sql1 = 'select Date from tradeinfo.his_idx where symbol = \'399300\' order by date desc limit 20'
+sql1 = 'select date from data.his_idx where symbol = \'399300\' order by date desc limit 20'
 exeQuery(cur,sql1)
 # sqlcontent = list(np.array(cur.fetchall())
 sqlcontent = cur.fetchall()
@@ -73,9 +75,10 @@ for i in daylist:
     tempdays.append(datetime.date.isoformat(sqlcontent[i-1][0]))
 days = tuple(tempdays)
 
-sql2 = 'select symbol,Date,closeprice from tradeinfo.his_idx where symbol in '+ str(universe) + ' and Date in ' + str(days) + ' order by date, symbol'
+sql2 = 'select symbol,date,nav from data.his_etf where symbol in '+ str(universe) + ' and date in ' + str(days) + ' order by date, symbol'
 exeQuery(cur,sql2)
 sqlcontent2 = cur.fetchall()
+# logging.info(sqlcontent2)
 
 #格式化为以日期为key值得嵌套字典格式
 content={}
@@ -85,6 +88,7 @@ for i in days:
         if i == datetime.date.isoformat(k[1]):
             dailyprice[k[0]] = k[2]
     content[i] = dailyprice
+
 #计算Return
 dailyreturn={}
 try:
@@ -93,6 +97,7 @@ try:
         for k in content[i]:
             tempreturn[k] = round(100*(realtimeprice[k]/content[i][k] - 1),2)
         dailyreturn[i] = tempreturn
+        # logging.info(dailyreturn[i])
 except Exception as e:
     print(e)
 
@@ -118,12 +123,8 @@ for i in temp:
     Message.info  += lines + '\n'
     print(lines)
     returntemp =  sorted(dailyreturn[i].items(), key=lambda d: d[1],reverse=True)
+    # logging.info(returntemp)
     for n in range(0,len(returntemp)):
-        if returntemp[n][1] > 0:
-            temp = str(n+1) + ' .  ' +str(returntemp[n][0]) + ' ' + str(fundname[returntemp[n][0]]) +': ' + str(returntemp[n][1]) + '%  >>> '+ fund[returntemp[n][0]]
-            print(temp)
-            Message.info  +=  temp+ '\n'
-        else:
-            temp = str(n+1) + ' .  ' +str(returntemp[n][0]) + ' ' + fundname[returntemp[n][0]] +': ' + str(returntemp[n][1])  + '%'
-            print(temp)
-            Message.info  +=  temp+ '\n'
+        temp = str(n + 1) + ' .  ' + str(returntemp[n][0]) + ' '  + ': ' + str(returntemp[n][1]) + '%'
+        print(temp)
+        Message.info += temp + '\n'
