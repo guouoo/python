@@ -59,7 +59,7 @@ def LoadHistory(list):
 #     Historylist = open(list, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
 #     symbolList=Historylist.readlines()
     
-    dateinfo = exeQuery(cur,'select symbol,maxdate FROM data.data_update where source =\''+ list + '\'').fetchall()
+    dateinfo = exeQuery(cur,'select symbol,maxdate FROM data.id_list where source =\''+ list + '\'').fetchall()
     maxdate=dict(dateinfo)
     symbolList=tuple(maxdate)
 

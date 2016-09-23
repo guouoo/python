@@ -13,7 +13,7 @@ import re
 import pymysql
 import logging
 
-path ='C:/src3/' #下载、处理和导入数据路径
+path ='C:/src/' #下载、处理和导入数据路径
 
 BASE_DIR = os.path.dirname(__file__)
 LOG_PATH = BASE_DIR +'/log/data_update/'
@@ -37,14 +37,16 @@ def DownloadPrice(table):
         startdate = str(maxdate[symbolList[k]]+datetime.timedelta(days = 1)).replace('-','')
         # print(symbolList[k] + ' ' + startdate + ' ' + enddate )
         if startdate >= enddate:
+            logging.info(symbolList[k] + ' is ignored as ' +str(startdate))
             continue
-        url = 'http://quotes.money.163.com/service/chddata.html?code=1'+symbolList[k]+'&start='+startdate +'&end='+ enddate
-#         print(url)
-
+        if symbolList[k][0] !='6':
+            url = 'http://quotes.money.163.com/service/chddata.html?code=1'+symbolList[k]+'&start='+startdate +'&end='+ enddate
+        else:
+            url = 'http://quotes.money.163.com/service/chddata.html?code=0' + symbolList[k] + '&start=' + startdate + '&end=' + enddate
         local = path + symbolList[k] +'.txt'
         try:
             urllib.request.urlretrieve(url, local)
-            logging.info(symbolList[k] + ' is downloaded.')
+            logging.info(symbolList[k] + ' is downloaded: '+ str(startdate) + ' ~ ' + str(enddate))
         except Exception as e:
             logging.info(e)
 
@@ -125,6 +127,7 @@ def LoadDataToDB(table):
     connClose(conn, cur)
     logging.info('''########################################''' +'\n' + table + ' is updated to latest status.' +'\n' + '''########################################''')
 
-DownloadPrice('his_idx')
+# DownloadPrice('his_idx')
 DownloadPrice('his_stk')
 # LoadDataToDB('his_idx')
+# FormatFiles()
