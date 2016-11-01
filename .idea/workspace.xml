@@ -6,6 +6,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Load_ETF_LOF.py" afterPath="$PROJECT_DIR$/Data/Load_ETF_LOF.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Load_Idx_stk.py" afterPath="$PROJECT_DIR$/Data/Load_Idx_stk.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/PreLoadData_ETF_LOF.py" afterPath="$PROJECT_DIR$/Data/PreLoadData_ETF_LOF.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" afterPath="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/his_lof" afterPath="$PROJECT_DIR$/Data/his_lof" />
     </list>
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,13 +28,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Load_Idx_stk.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data/Load_Idx_stk.py">
+      <file leaf-file-name="TwentyEightyStrategy_single.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="399">
+              <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
               <folding>
-                <element signature="e#63#84#0" expanded="true" />
+                <element signature="e#72#86#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,7 +62,6 @@
         <option value="$PROJECT_DIR$/Data/his_stk" />
         <option value="$PROJECT_DIR$/Stock/Load_Idx.py" />
         <option value="$PROJECT_DIR$/Data/log/data_update/20160920_101010.log" />
-        <option value="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
         <option value="$PROJECT_DIR$/Data/log/data_update/20160920_114836.txt" />
         <option value="$PROJECT_DIR$/Data/log/data_update/20160920_115159.txt" />
         <option value="$PROJECT_DIR$/Data/his_idx1" />
@@ -68,20 +70,27 @@
         <option value="$PROJECT_DIR$/Data/log/data_update/20160921_151529.log" />
         <option value="$PROJECT_DIR$/Data/log/data_update/20160921_153011.txt" />
         <option value="$PROJECT_DIR$/Data/log/data_update/20160922_062007.log" />
-        <option value="$PROJECT_DIR$/Data/Load_ETF_LOF.py" />
         <option value="$PROJECT_DIR$/Data/his_stk1" />
         <option value="$PROJECT_DIR$/Data/log/data_update/20160923_104228.txt" />
         <option value="$PROJECT_DIR$/Data/log/data_update/20160923_105033.txt" />
         <option value="$PROJECT_DIR$/Data/log/data_update/20160923_111418.txt" />
+        <option value="$PROJECT_DIR$/Data/log/data_update/20160926_062006.log" />
+        <option value="$PROJECT_DIR$/Data/log/data_update/20160926_170142.txt" />
         <option value="$PROJECT_DIR$/Data/Load_Idx_stk.py" />
+        <option value="$PROJECT_DIR$/Data/his_etf" />
+        <option value="$PROJECT_DIR$/Data/his_etf1" />
+        <option value="$PROJECT_DIR$/Data/his_lof" />
+        <option value="$PROJECT_DIR$/Data/PreLoadData_ETF_LOF.py" />
+        <option value="$PROJECT_DIR$/Data/Load_ETF_LOF.py" />
+        <option value="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1020" />
-    <option name="y" value="134" />
-    <option name="width" value="1288" />
-    <option name="height" value="1032" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1032" />
+    <option name="height" value="1244" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -108,8 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,26 +194,32 @@
               <option name="myItemId" value="log" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data_update" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="python" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="python" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tguo\Documents\Python\code\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Load_Idx_stk">
+  <component name="RunManager" selected="Python.TwentyEightyStrategy_single (1)">
     <configuration default="false" name="TwentyEightyStrategy_single (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,23 +271,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="TwentyEightyStrategy_output" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stock" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stock/TwentyEightyStrategy_output.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Load_Idx_stk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -288,6 +284,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/Load_Idx_stk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PreLoadData_ETF_LOF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/PreLoadData_ETF_LOF.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -430,16 +443,16 @@
       <item index="0" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_single (1)" />
       <item index="1" class="java.lang.String" itemvalue="Python.PreLoadData_Stock_Idx" />
       <item index="2" class="java.lang.String" itemvalue="Python.Load_ETF_LOF" />
-      <item index="3" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_output" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Load_Idx_stk" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Load_Idx_stk" />
+      <item index="4" class="java.lang.String" itemvalue="Python.PreLoadData_ETF_LOF" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Load_Idx_stk" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_single (1)" />
         <item index="1" class="java.lang.String" itemvalue="Python.Load_ETF_LOF" />
-        <item index="2" class="java.lang.String" itemvalue="Python.PreLoadData_Stock_Idx" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_single (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_output" />
+        <item index="2" class="java.lang.String" itemvalue="Python.PreLoadData_ETF_LOF" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Load_Idx_stk" />
+        <item index="4" class="java.lang.String" itemvalue="Python.PreLoadData_Stock_Idx" />
       </list>
     </recent_temporary>
   </component>
@@ -478,30 +491,37 @@
       <option name="project" value="LOCAL" />
       <updated>1474372883466</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New Patch for Python">
+      <created>1474601375705</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1474601375705</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1020" y="134" width="1288" height="1032" extended-state="6" />
-    <editor active="false" />
+    <frame x="-4" y="-4" width="1032" height="1244" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18261719" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34059232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2238676" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1965812" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27457264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -528,71 +548,14 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160916_172005.log" />
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160916_172903.log" />
-    <entry file="file://$PROJECT_DIR$/Stock/TwentyEightTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/pymysql/err.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1859">
-          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stock/StockList">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stock/PreLoadData2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stock/idxList">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="393" column="5" selection-start-line="393" selection-start-column="5" selection-end-line="393" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/his_stk">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="2974" column="6" selection-start-line="2974" selection-start-column="6" selection-end-line="2974" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/TwentyEightyStrategy_output.py" />
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/TwentyEightyStrategy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1944">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/TwentyEightyStrategy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1722">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160919_192006.log" />
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160920_101010.log" />
     <entry file="file://$PROJECT_DIR$/tornado/TwentyEightyStrategy_single.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,29 +604,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2219">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#63#84#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160920_114836.txt" />
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160920_115159.txt" />
-    <entry file="file://$PROJECT_DIR$/Data/his_etf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="6" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="99" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160920_130627.txt" />
-    <entry file="file://$PROJECT_DIR$/Data/PreLoadData_ETF_LOF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1442825926/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="758">
@@ -680,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/his_idx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="404" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/PreLoadList">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -698,13 +638,6 @@
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160921_153011.txt" />
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160922_062007.log" />
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160922_071011.txt" />
-    <entry file="file://$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/TwentyEightTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3948">
@@ -713,13 +646,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160923_103352.log" />
-    <entry file="file://$PROJECT_DIR$/Data/Load_ETF_LOF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/his_idx1" />
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160923_103908.txt" />
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160923_103933.txt" />
@@ -729,19 +655,123 @@
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160923_110458.txt" />
     <entry file="file://$PROJECT_DIR$/Data/his_stk1" />
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160923_111418.txt" />
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160923_112348.txt">
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160923_112348.txt" />
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160926_071011.txt" />
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160926_062006.log" />
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160926_170121.log" />
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160926_170142.txt" />
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161013_174538.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73292">
-          <caret line="205" column="46" selection-start-line="205" selection-start-column="46" selection-end-line="205" selection-end-column="46" />
+        <state relative-caret-position="-945">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161018_071012.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161101_062008.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1470">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161101_071011.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/his_stk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/his_idx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="404" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/his_lof">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="123" column="6" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/his_etf1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/his_etf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-991">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161101_162515.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Load_ETF_LOF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding>
+            <element signature="e#64#85#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/Load_Idx_stk.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="500">
+          <caret line="44" column="135" selection-start-line="41" selection-start-column="8" selection-end-line="44" selection-end-column="135" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/PreLoadData_ETF_LOF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding>
-            <element signature="e#63#84#0" expanded="true" />
+            <element signature="e#87#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+          <folding>
+            <element signature="e#72#86#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -127,7 +127,7 @@ def LoadDataToDB(table):
     connClose(conn, cur)
     logging.info('''########################################''' +'\n' + table + ' is updated to latest status.' +'\n' + '''########################################''')
 
-# DownloadPrice('his_idx')
+DownloadPrice('his_idx')
 DownloadPrice('his_stk')
 # LoadDataToDB('his_idx')
 # FormatFiles()

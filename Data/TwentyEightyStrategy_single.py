@@ -65,20 +65,23 @@ except Exception as e:
 
 
 #获取daylist所列回溯日期收盘价
-sql1 = 'select date from data.his_idx where symbol = \'399300\' order by date desc limit 20'
+sql1 = 'select date from data.his_idx where symbol = \'399300\' order by date desc limit 22'
 exeQuery(cur,sql1)
-# sqlcontent = list(np.array(cur.fetchall())
 sqlcontent = cur.fetchall()
+
 tempdays = []
-daylist=[1,5,20]
+daylist=[5,20,22]
 for i in daylist:
     tempdays.append(datetime.date.isoformat(sqlcontent[i-1][0]))
 days = tuple(tempdays)
 
-sql2 = 'select symbol,date,nav from data.his_etf where symbol in '+ str(universe) + ' and date in ' + str(days) + ' order by date, symbol'
+sql2 = 'select symbol,date,closeprice from data.his_etf where symbol in '+ str(universe) + ' and date in ' + str(days) + ' order by date, symbol'
 exeQuery(cur,sql2)
 sqlcontent2 = cur.fetchall()
-# logging.info(sqlcontent2)
+
+sql3 = 'select symbol,names from data.id_list where symbol in '+ str(universe)
+exeQuery(cur,sql3)
+sqlcontent3 = dict(cur.fetchall())
 
 #格式化为以日期为key值得嵌套字典格式
 content={}
@@ -110,9 +113,8 @@ title = '二八趋势轮动策略模型： ' + str(time.strftime( "%Y-%m-%d %H:%
 print(title)
 Message.info += title +'\n'
 
-#预定义指数与ETF关系，(f-)表示流动性差，(c)表示大成C类型基金
-fund = {'399004':'159901 & 150018+150019','399102':'Null','399006':'159915 & 150152+150153','399610':'159909(f-)','399008':'159907(f-) & 270026(c)','399337':'159911(f-)','399005':'159902','399300':'159919 & 510300 & 270010(c)','399001':'159903','399330':'159901 & 150083+150084(f-)'}
-fundname = {'399004':'深证100R','399330':'深证100','399300':'沪深300','399001':'深证成指','399005':'中小板指','399008':'中小300','399337':'深证民营','399102':'创业板综','399610':'TMT50','399006':'创业板指'}
+#预定义指数与ETF关系
+
 
 #输出计算结果
 temp = sorted(days,reverse=True)
@@ -125,6 +127,6 @@ for i in temp:
     returntemp =  sorted(dailyreturn[i].items(), key=lambda d: d[1],reverse=True)
     # logging.info(returntemp)
     for n in range(0,len(returntemp)):
-        temp = str(n + 1) + ' .  ' + str(returntemp[n][0]) + ' '  + ': ' + str(returntemp[n][1]) + '%'
+        temp = str(n + 1) + ' .  ' + str(returntemp[n][0]) + ' '+ str(sqlcontent3[returntemp[n][0]])+ ' : ' + str(returntemp[n][1]) + '%'
         print(temp)
         Message.info += temp + '\n'

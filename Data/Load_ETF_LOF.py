@@ -51,8 +51,6 @@ def connClose(conn,cur):#关闭所有连接
 def LoadHistory(list):
     
     conn,cur=connDB()
-    page = '1';
-    per = '12000';
     # sdate= '1900-01-01';
     edate= time.strftime('%Y-%m-%d',time.localtime(time.time()));
     
@@ -64,30 +62,31 @@ def LoadHistory(list):
     symbolList=tuple(maxdate)
 
     for k in range(0,len(symbolList)):
+        symbol=symbolList[k]
         sdate = str(maxdate[symbolList[k]]+datetime.timedelta(days = 1))
         if sdate >= edate:
             continue
-        url = 'http://fund.eastmoney.com/f10/F10DataApi.aspx?type=lsjz&code='+symbolList[k]+'&page='+page+'&per='+per+'&sdate='+sdate+'&edate='+ edate
-#         print(url)
-#       http://fund.eastmoney.com/f10/F10DataApi.aspx?type=lsjz&code=159917&page=1&per=12000 
-        Temp = urllib.request.urlopen(url).read().decode('gbk ','ignore')
-        soup = BeautifulSoup(Temp,"lxml")
-        TempValue = re.sub(r'</?td.*?>','',str(soup.findAll('td'))).replace('[','').replace(']','').replace(' ','').replace('%','').split(',')
-         
-        for i in range(0,len(TempValue)-1,7):
-            for h in range(i,i+7):
-                if TempValue[h] == '':
-                    TempValue[h] = '0'
-            # values2= TempValue[i:7+i]
+        if symbolList[k][0] != '5':
+            url = 'http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz' + symbol + '&begin_date=' + sdate + '&end_date=' + edate
+        else:
+            url = 'http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh' + symbol + '&begin_date=' + sdate + '&end_date=' + edate
+        logging.info(url)
+            # http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159901&begin_date=20060315&end_date=20161015
+        Temp = urllib.request.urlopen(url).read()
 
-            istsql = 'insert into '+ list +' values (\'' + symbolList[k] +'\',\'' + TempValue[i] +'\','+ TempValue[1+i] + ','+ TempValue[2+i] + ',' +TempValue[3+i] + ',\'' + TempValue[4+i]+'\',\'' + TempValue[5+i]+'\',\'' + TempValue[6+i]+'\')'
+        tag = BeautifulSoup(Temp, "xml").findAll("content")
+        for j in range(0, len(tag)):
+            tradeinfo = str(tag[j]).replace('<content bl="" c="', ',\'').replace('"/>', '\')')
+            tradedata = '(\'' + symbol + '\'' + re.sub(r'"..="', '\',\'', tradeinfo)
+
+            istsql = 'insert into ' + list + ' (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ' + tradedata + ';'
             logging.info(istsql)
             try:
                 conn.cursor().execute(istsql)
-#                 print(istsql)
+                    #print(istsql)
             except Exception as e:
-                logging.info(e)
-                # logging.info(istsql)
+                print(e)
+                print(istsql)
 #         print(symbolList[k] + ' : Records from \'' + sdate + '\' to \'' + edate + '\' are inserted into table \'' + list + '\'')
                
 #     Historylist.close()
