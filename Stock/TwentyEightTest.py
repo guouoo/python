@@ -16,14 +16,14 @@ import logging
 # import pandas as pd
 
 universe = ('399004','399300','399337','399610','399008','399006')
-start = '2015-01-01'
-end = '2016-01-12'
+start = '2016-01-01'
+end = '2016-11-12'
 benchmark ='399300'
 capital = 1000000
 tradecostrate = decimal.Decimal('0.001')
 tradecost = 0
 frequncy = 1
-period = 20
+period = 7
 rf = 2.3332
 
 class Account:
@@ -59,7 +59,7 @@ logging.basicConfig(
 )
 
 def connDB():
-    conn=pymysql.connect(host='localhost',user='root',passwd='6619',db='tradeinfo',charset='utf8')
+    conn=pymysql.connect(host='localhost',user='root',passwd='66196619',db='data',charset='utf8')
     cur=conn.cursor();
     return (conn,cur);
 

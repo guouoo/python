@@ -43,7 +43,8 @@ def connClose(conn,cur):
     conn.close();
 
 conn,cur=connDB()#连接数据库 
-universe = ('510500','159901','159919','159902','159937','518880','510500','511010','159915','159905','159903','510900') #定义Universe
+# universe = ('510500','159901','159919','159902','159937','518880','510500','511010','159915','159905','159903','510900') #定义Universe
+universe = ('510500','159919','518880','510500','511010','159915','159905','510900') #定义Universe
 
 #获取Universe内所有指数实时价格
 realtimeprice = []
@@ -79,7 +80,7 @@ sql2 = 'select symbol,date,closeprice from data.his_etf where symbol in '+ str(u
 exeQuery(cur,sql2)
 sqlcontent2 = cur.fetchall()
 
-sql3 = 'select symbol,names from data.id_list where symbol in '+ str(universe)
+sql3 = 'select symbol,name from data.id_list where symbol in '+ str(universe)
 exeQuery(cur,sql3)
 sqlcontent3 = dict(cur.fetchall())
 

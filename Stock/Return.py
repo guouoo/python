@@ -13,7 +13,7 @@ import time
 
 def pricereturn():
     conn,cur=connDB() 
-    getsql1= 'select symbol,name from list_all where type = \'Index\' order by symbol;'  
+    getsql1= 'select symbol,names from id_list where type = \'Index\' order by symbol;'
     exeQuery(cur,getsql1)
     symboldetail=dict(cur)
     symbollist=tuple(symboldetail)

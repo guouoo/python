@@ -57,12 +57,12 @@ def LoadHistory(list):
     conn, cur = connDB()
     page = '1';
     per = '12000';
-    # sdate= '1900-01-01';
+
     edate = time.strftime('%Y-%m-%d', time.localtime(time.time()));
 
-    #     Historylist = open(list, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
-    #     symbolList=Historylist.readlines()
-
+    Historylist = open(list, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
+    symbolList=Historylist.readlines()
+    # sdate= '1900-01-01';
     dateinfo = exeQuery(cur, 'select symbol, max(date) FROM data.'+ list + ' group by symbol order by symbol').fetchall()
     maxdate = dict(dateinfo)
     symbolList = tuple(maxdate)
@@ -102,5 +102,5 @@ def LoadHistory(list):
 
 
 LoadHistory('nav_etf')
-LoadHistory('nav_lof')
+# LoadHistory('nav_lof')
 # LoadHistory('his_classfund')
