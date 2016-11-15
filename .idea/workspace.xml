@@ -5,11 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Load_ETF_LOF_NAV.py" afterPath="$PROJECT_DIR$/Data/Load_ETF_LOF_NAV.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" afterPath="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/his_etf" afterPath="$PROJECT_DIR$/Data/his_etf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/nav_etf" afterPath="$PROJECT_DIR$/Data/nav_etf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stock/Return.py" afterPath="$PROJECT_DIR$/Stock/Return.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stock/TwentyEightTest.py" afterPath="$PROJECT_DIR$/Stock/TwentyEightTest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stock/statdata/connectdb.py" afterPath="$PROJECT_DIR$/Stock/statdata/connectdb.py" />
     </list>
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,24 +24,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TwentyEightyStrategy_single.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TwentyEightyStrategy_single.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+            <state relative-caret-position="525">
+              <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
               <folding>
                 <element signature="e#72#86#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Load_ETF_LOF_NAV.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data/Load_ETF_LOF_NAV.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -109,8 +94,9 @@
         <option value="$PROJECT_DIR$/Stock/TwentyEightTest.py" />
         <option value="$PROJECT_DIR$/Stock/statdata/connectdb.py" />
         <option value="$PROJECT_DIR$/Stock/Return.py" />
-        <option value="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
         <option value="$PROJECT_DIR$/Data/Load_ETF_LOF_NAV.py" />
+        <option value="$PROJECT_DIR$/Data/log/data_update/20161115_111155_NAV.log" />
+        <option value="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
       </list>
     </option>
   </component>
@@ -237,10 +223,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data_update" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +269,7 @@
       <recent name="C:\Users\tguo\Documents\Python\code\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Load_ETF_LOF_NAV">
+  <component name="RunManager" selected="Python.TwentyEightyStrategy_single (1)">
     <configuration default="false" name="TwentyEightyStrategy_single (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,23 +283,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="PreLoadData_ETF_LOF" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/PreLoadData_ETF_LOF.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -343,6 +334,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stock/Return.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Load_ETF_LOF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/Load_ETF_LOF.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -483,18 +491,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_single (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.PreLoadData_ETF_LOF" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Load_ETF_LOF_NAV" />
-      <item index="3" class="java.lang.String" itemvalue="Python.TwentyEightTest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Return" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Load_ETF_LOF_NAV" />
+      <item index="2" class="java.lang.String" itemvalue="Python.TwentyEightTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Return" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Load_ETF_LOF" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Load_ETF_LOF_NAV" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_single (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Return" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TwentyEightTest" />
-        <item index="4" class="java.lang.String" itemvalue="Python.PreLoadData_ETF_LOF" />
+        <item index="0" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_single (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Load_ETF_LOF" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Load_ETF_LOF_NAV" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Return" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TwentyEightTest" />
       </list>
     </recent_temporary>
   </component>
@@ -561,19 +569,26 @@
       <option name="project" value="LOCAL" />
       <updated>1478499922293</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ClNAV help to calculate SharpRatio.&#10;Date : 2016-11-04&#10;Symbol&#9;Name&#9;SharpRatio&#10;159901&#9;深100ETF&#9;0.5008&#10;159902&#9;中小板&#9;0.4622&#10;159903&#9;深成ETF&#9;0.0578&#10;159905&#9;深红利&#9;0.1379&#10;159915&#9;创业板&#9;0.5803&#10;159919&#9;300ETF&#9;0.3039&#10;510500&#9;500ETF&#9;0.6356&#10;510900&#9;H股ETF&#9;0.018&#10;511010&#9;国债ETF&#9;0.4444&#10;159937&#9;博时黄金ETF&#9;0.278&#10;518880&#9;华安黄金易ETF&#9;0.0071">
+      <created>1479090092890</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1479090092890</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1032" height="1244" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22460938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15527344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2987805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2987805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -626,9 +641,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160923_112348.txt" />
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160926_071011.txt" />
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160926_062006.log" />
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160926_170121.log" />
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20160926_170142.txt" />
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161013_174538.txt" />
@@ -736,20 +748,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161107_141505_NAV.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
-          <caret line="1" column="302" selection-start-line="1" selection-start-column="298" selection-end-line="1" selection-end-column="305" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161110_071011.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161107_141505_NAV.log" />
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161110_071011.txt" />
     <entry file="file://$PROJECT_DIR$/Data/his_etf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -764,32 +764,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161110_094607_NAV.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3927">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161110_094607_NAV.log" />
     <entry file="file://$PROJECT_DIR$/Data/nav_etf2" />
-    <entry file="file://$PROJECT_DIR$/Data/Load_ETF_LOF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="73" column="128" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/PreLoadData_ETF_LOF.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="996">
           <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/his_etf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -819,7 +799,7 @@
         <state relative-caret-position="84">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
-            <element signature="e#63#129#0" expanded="true" />
+            <element signature="e#63#129#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -831,45 +811,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-          <folding>
-            <element signature="e#72#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/nav_etf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="996">
           <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161114_063014_NAV.log">
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161114_063014_NAV.log" />
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161114_102013_NAV.log" />
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161115_063014_NAV.log" />
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161115_111155_NAV.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161114_102013_NAV.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="21">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/Load_ETF_LOF_NAV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="485">
+          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="77" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/his_etf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1008">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161115_185902.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="30" column="113" selection-start-line="30" selection-start-column="113" selection-end-line="30" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Load_ETF_LOF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="73" column="128" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+          <folding>
+            <element signature="e#72#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
