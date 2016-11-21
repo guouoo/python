@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2669d4-cf9b-483c-9182-07a4b3de25da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/LoadStock_Adj.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/PreLoadStock_Adj.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/PreLoad_ETF_LOF_NAV.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/src/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/LoadAdj_stk.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20161115_111145_NAV.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20161115_111155_NAV.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20161115_185902.log" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Data/DBConnect.py" afterPath="$PROJECT_DIR$/Data/src/DBConnect.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/trade.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Load_ETF_LOF_NAV.py" afterPath="$PROJECT_DIR$/Data/Load_ETF_LOF_NAV.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" afterPath="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/his_etf" afterPath="$PROJECT_DIR$/Data/his_etf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/nav_etf" afterPath="$PROJECT_DIR$/Data/nav_etf" />
     </list>
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +22,32 @@
     <favorites_list name="code" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="trade.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/trade.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Load_ETF_LOF.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/Load_ETF_LOF.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="e#64#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,6 +112,7 @@
         <option value="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
         <option value="$PROJECT_DIR$/Data/src/DBConnect.py" />
         <option value="$PROJECT_DIR$/Data/LoadStock_Adj.py" />
+        <option value="$PROJECT_DIR$/Data/trade.py" />
       </list>
     </option>
   </component>
@@ -134,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,7 +246,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -257,7 +270,7 @@
       <recent name="C:\Users\tguo\Documents\Python\code\Data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.LoadStock_Adj">
+  <component name="RunManager" selected="Python.trade">
     <configuration default="false" name="TwentyEightyStrategy_single (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,23 +305,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="PreLoad_ETF_LOF_NAV" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/PreLoad_ETF_LOF_NAV.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="PreLoadData_ETF_LOF" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,6 +335,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/LoadStock_Adj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="trade" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/trade.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -480,17 +493,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_single (1)" />
       <item index="1" class="java.lang.String" itemvalue="Python.Load_ETF_LOF_NAV" />
-      <item index="2" class="java.lang.String" itemvalue="Python.PreLoad_ETF_LOF_NAV" />
-      <item index="3" class="java.lang.String" itemvalue="Python.PreLoadData_ETF_LOF" />
-      <item index="4" class="java.lang.String" itemvalue="Python.LoadStock_Adj" />
+      <item index="2" class="java.lang.String" itemvalue="Python.PreLoadData_ETF_LOF" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LoadStock_Adj" />
+      <item index="4" class="java.lang.String" itemvalue="Python.trade" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.LoadStock_Adj" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_single (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.PreLoadData_ETF_LOF" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Load_ETF_LOF_NAV" />
-        <item index="4" class="java.lang.String" itemvalue="Python.PreLoad_ETF_LOF_NAV" />
+        <item index="0" class="java.lang.String" itemvalue="Python.trade" />
+        <item index="1" class="java.lang.String" itemvalue="Python.LoadStock_Adj" />
+        <item index="2" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_single (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PreLoadData_ETF_LOF" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Load_ETF_LOF_NAV" />
       </list>
     </recent_temporary>
   </component>
@@ -564,17 +577,23 @@
       <option name="project" value="LOCAL" />
       <updated>1479090092890</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Stock_adjusted price and routine program to load data">
+      <created>1479719482412</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1479719482412</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1020" y="134" width="1288" height="1032" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30021366" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -587,6 +606,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -605,7 +625,8 @@
     <MESSAGE value="New Patch for Python" />
     <MESSAGE value="Change ETF and LOF data source, then we have daily High/Low/Open/Close price for them now." />
     <MESSAGE value="ClNAV help to calculate SharpRatio.&#10;Date : 2016-11-04&#10;Symbol&#9;Name&#9;SharpRatio&#10;159901&#9;深100ETF&#9;0.5008&#10;159902&#9;中小板&#9;0.4622&#10;159903&#9;深成ETF&#9;0.0578&#10;159905&#9;深红利&#9;0.1379&#10;159915&#9;创业板&#9;0.5803&#10;159919&#9;300ETF&#9;0.3039&#10;510500&#9;500ETF&#9;0.6356&#10;510900&#9;H股ETF&#9;0.018&#10;511010&#9;国债ETF&#9;0.4444&#10;159937&#9;博时黄金ETF&#9;0.278&#10;518880&#9;华安黄金易ETF&#9;0.0071" />
-    <option name="LAST_COMMIT_MESSAGE" value="ClNAV help to calculate SharpRatio.&#10;Date : 2016-11-04&#10;Symbol&#9;Name&#9;SharpRatio&#10;159901&#9;深100ETF&#9;0.5008&#10;159902&#9;中小板&#9;0.4622&#10;159903&#9;深成ETF&#9;0.0578&#10;159905&#9;深红利&#9;0.1379&#10;159915&#9;创业板&#9;0.5803&#10;159919&#9;300ETF&#9;0.3039&#10;510500&#9;500ETF&#9;0.6356&#10;510900&#9;H股ETF&#9;0.018&#10;511010&#9;国债ETF&#9;0.4444&#10;159937&#9;博时黄金ETF&#9;0.278&#10;518880&#9;华安黄金易ETF&#9;0.0071" />
+    <MESSAGE value="Add Stock_adjusted price and routine program to load data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Stock_adjusted price and routine program to load data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -634,13 +655,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data/his_etf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161110_094607_NAV.log" />
     <entry file="file://$PROJECT_DIR$/Stock/TwentyEightyStrategy.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -786,21 +800,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/src/DB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/src/DB.py" />
     <entry file="file://$PROJECT_DIR$/Stock/Load_ETF_LOF_ClassFund.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#64#85#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,9 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#63#84#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,39 +863,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="1579" column="0" selection-start-line="1579" selection-start-column="0" selection-end-line="1579" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161121_115054_qfq.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="215" column="109" selection-start-line="215" selection-start-column="109" selection-end-line="215" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161121_115238_qfq.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="110" selection-start-line="4" selection-start-column="110" selection-end-line="4" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161121_121329_qfq.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161121_115054_qfq.log" />
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161121_115238_qfq.log" />
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20161121_121329_qfq.log" />
     <entry file="file://$PROJECT_DIR$/Data/src/DBConnect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,35 +887,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/LoadAdj_stk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/LoadAdj_stk.py" />
     <entry file="file://$PROJECT_DIR$/Data/LoadStock_Adj.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Load_ETF_LOF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="65" />
-          <folding>
-            <element signature="e#64#85#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,8 +902,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1218">
           <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Load_ETF_LOF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#64#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/trade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
