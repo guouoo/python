@@ -44,7 +44,7 @@ def connClose(conn,cur):
 
 conn,cur=connDB()#连接数据库 
 # universe = ('510500','159901','159919','159902','159937','518880','510500','511010','159915','159905','159903','510900') #定义Universe
-universe = ('510500','159915','159905','513500') #定义Universe
+universe = ('510500','159915','513500','513100') #定义Universe
 
 #获取Universe内所有指数实时价格
 realtimeprice = []
@@ -71,7 +71,7 @@ exeQuery(cur,sql1)
 sqlcontent = cur.fetchall()
 
 tempdays = []
-daylist=[5,20,22]
+daylist=[19,20,22]
 for i in daylist:
     tempdays.append(datetime.date.isoformat(sqlcontent[i-1][0]))
 days = tuple(tempdays)

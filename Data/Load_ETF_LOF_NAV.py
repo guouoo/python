@@ -60,8 +60,8 @@ def LoadHistory(list):
 
     edate = time.strftime('%Y-%m-%d', time.localtime(time.time()));
 
-    Historylist = open(list, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
-    symbolList=Historylist.readlines()
+    # Historylist = open(list, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
+    # symbolList=Historylist.readlines()
     # sdate= '1900-01-01';
     dateinfo = exeQuery(cur, 'select symbol, max(date) FROM data.'+ list + ' group by symbol order by symbol').fetchall()
     maxdate = dict(dateinfo)
@@ -72,8 +72,7 @@ def LoadHistory(list):
 
         if sdate >= edate:
             continue
-        url = 'http://fund.eastmoney.com/f10/F10DataApi.aspx?type=lsjz&code=' + symbolList[
-            k] + '&page=' + page + '&per=' + per + '&sdate=' + sdate + '&edate=' + edate
+        url = 'http://fund.eastmoney.com/f10/F10DataApi.aspx?type=lsjz&code=' + symbolList[k] + '&page=1&per=12000' + page + '&per=' + per + '&sdate=' + sdate + '&edate=' + edate
         # print(url)
         #       http://fund.eastmoney.com/f10/F10DataApi.aspx?type=lsjz&code=159917&page=1&per=12000
         Temp = urllib.request.urlopen(url).read().decode('utf8', 'ignore')
