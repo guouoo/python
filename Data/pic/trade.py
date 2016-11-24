@@ -12,19 +12,21 @@ logging.basicConfig(
     format="%(levelname)s: %(message)s"
 )
 
-user = HTTrader()
-user.read_config('me.json')
-
-user.autologin()
-
-logging.info(user.balance)
-logging.info(user.position)
+# user = HTTrader()
+# user.read_config('me.json')
+# user.autologin()
 
 
-# import easytrader
-# user = easytrader.use('ht')
-# user.prepare('ht.json')
+import easytrader
+user = easytrader.use('ht')
+user.prepare('me.json')
 # user.balance
+
+a = user.balance
+b = user.position
+logging.info(a)
+logging.info(b)
+
 
 # user.buy('162411', price=0.55, amount=100)
 # user.sell('162411', price=0.55, amount=100)

@@ -1,0 +1,520 @@
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510630&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510630','1.608','2016-11-23','1.617','1.608','1.611','1284');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510030&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510030','4.250','2016-11-23','4.300','4.106','4.106','79');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159910&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159910','1.420','2016-11-23','1.420','1.420','1.420','209');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510260&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510260','1.140','2016-11-23','1.144','1.131','1.131','1627');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh513100&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('513100','1.779','2016-11-23','1.782','1.776','1.780','105761');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159934&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159934','2.715','2016-11-23','2.719','2.712','2.714','498437');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159929&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159929','1.450','2016-11-23','1.460','1.450','1.450','3610');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159925&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159925','1.406','2016-11-23','1.410','1.401','1.401','5023');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511880&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511880','102.374','2016-11-23','102.378','102.368','102.370','2082252');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159909&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159909','4.995','2016-11-23','5.013','4.971','5.012','110');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510430&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510430','1.390','2016-11-23','1.396','1.379','1.381','589');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159901&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159901','4.256','2016-11-23','4.280','4.248','4.248','48793');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159918&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159918','2.140','2016-11-23','2.156','2.118','2.156','149');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159935&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159935','1.724','2016-11-23','1.724','1.724','1.724','5');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510010&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510010','0.993','2016-11-23','1.001','0.981','0.995','758');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159912&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159912','1.347','2016-11-23','1.349','1.310','1.346','2323');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510110&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510110','3.124','2016-11-23','3.125','3.091','3.125','137');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159922&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159922','6.612','2016-11-23','6.640','6.596','6.625','1206');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512220&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512220','1.459','2016-11-23','1.483','1.443','1.469','469');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510620&begin_date=2016-03-29&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512880&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512880','1.126','2016-11-23','1.143','1.122','1.137','163244');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511900&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511900','99.992','2016-11-23','99.994','99.983','99.990','402994');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511810&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511810','99.988','2016-11-23','99.990','99.981','99.990','466613');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511980&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511980','99.987','2016-11-23','99.989','99.982','99.987','155238');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511600&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511600','99.986','2016-11-23','99.987','99.983','99.986','81754');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512510&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512510','1.344','2016-11-23','1.355','1.343','1.355','9841');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510150&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510150','3.856','2016-11-23','3.886','3.809','3.809','106');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510090&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510090','1.319','2016-11-23','1.332','1.316','1.332','59');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512330&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512330','0.871','2016-11-23','0.880','0.871','0.880','216');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159937&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159937','2.724','2016-11-23','2.729','2.715','2.715','507684');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511830&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511830','99.990','2016-11-23','99.993','99.985','99.989','16448');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510230&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510230','5.445','2016-11-23','5.490','5.419','5.422','6185');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510190&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510190','3.248','2016-11-23','3.278','3.220','3.278','74');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510220&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510220','4.000','2016-11-23','4.075','4.000','4.001','182');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510120&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510120','2.675','2016-11-23','2.675','2.625','2.625','11');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510070&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510070','1.660','2016-11-23','1.671','1.660','1.671','104');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512310&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512310','0.710','2016-11-23','0.715','0.710','0.712','1827');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159931&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159931','1.556','2016-11-23','1.560','1.537','1.537','2050');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh513500&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('513500','1.595','2016-11-23','1.598','1.580','1.580','73832');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159913&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159913','1.500','2016-11-23','1.539','1.480','1.495','172');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510270&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510270','1.028','2016-11-23','1.029','1.014','1.023','712');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159916&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159916','2.720','2016-11-23','2.721','2.720','2.721','18');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512300&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512300','1.270','2016-11-23','1.272','1.263','1.271','1864');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512010&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512010','1.307','2016-11-23','1.319','1.303','1.303','441');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510580&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510580','6.750','2016-11-23','6.791','6.750','6.750','51');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510130&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510130','3.611','2016-11-23','3.640','3.611','3.636','8297');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510280&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510280','1.411','2016-11-23','1.411','1.411','1.411','500');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512810&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512810','0.969','2016-11-23','0.978','0.968','0.969','109208');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512680&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512680','1.003','2016-11-23','1.012','1.000','1.001','252780');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511890&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511890','99.987','2016-11-23','99.987','99.986','99.987','2482');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159945&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159945','0.732','2016-11-23','0.734','0.724','0.733','10764');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159941&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159941','1.118','2016-11-23','1.124','1.115','1.121','1790');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510300&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510300','3.537','2016-11-23','3.553','3.528','3.536','911254');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159907&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159907','1.504','2016-11-23','1.516','1.504','1.516','1059');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510210&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510210','3.579','2016-11-23','3.600','3.506','3.600','157');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512230&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512230','1.323','2016-11-23','1.323','1.323','1.323','8');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510310&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510310','1.442','2016-11-23','1.456','1.442','1.446','11954');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510330&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510330','3.702','2016-11-23','3.716','3.696','3.696','10288');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512070&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512070','1.822','2016-11-23','1.834','1.821','1.829','10410');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159936&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159936','1.602','2016-11-23','1.602','1.599','1.600','47');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159946&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159946','0.999','2016-11-23','0.999','0.999','0.999','1205');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512660&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512660','1.011','2016-11-23','1.019','1.007','1.007','224754');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159932&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159932','1.928','2016-11-23','1.928','1.840','1.928','422');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510360&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510360','1.067','2016-11-23','1.075','1.066','1.069','38072');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159902&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159902','3.330','2016-11-23','3.359','3.325','3.352','80975');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159915&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159915','2.075','2016-11-23','2.100','2.073','2.090','2436438');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510650&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510650','1.533','2016-11-23','1.550','1.523','1.523','18476');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512000&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512000','1.081','2016-11-23','1.094','1.076','1.086','46970');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511210&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511210','115.890','2016-11-23','115.900','115.144','115.501','10');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159921&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159921','1.606','2016-11-23','1.620','1.600','1.619','772');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159944&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159944','0.892','2016-11-23','0.894','0.876','0.888','6219');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510900&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510900','1.071','2016-11-23','1.084','1.070','1.072','10190040');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510660&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510660','1.550','2016-11-23','1.559','1.546','1.559','2033');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512340&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512340','0.843','2016-11-23','0.850','0.842','0.850','4493');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510050&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510050','2.415','2016-11-23','2.431','2.404','2.409','2154155');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159903&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159903','1.165','2016-11-23','1.174','1.163','1.173','10786');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159908&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159908','1.242','2016-11-23','1.251','1.242','1.250','1089');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510880&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510880','2.764','2016-11-23','2.784','2.755','2.759','32898');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159906&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159906','0.987','2016-11-23','0.987','0.972','0.980','310');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511220&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511220','100.200','2016-11-23','100.242','100.100','100.100','373');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512110&begin_date=2016-09-21&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510710&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510710','2.384','2016-11-23','2.396','2.373','2.373','584');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159924&begin_date=2016-11-22&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159924','1.430','2016-11-23','1.435','1.430','1.430','3951');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510180&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510180','3.062','2016-11-23','3.081','3.057','3.060','123227');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511010&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511010','112.761','2016-11-23','113.010','112.700','112.722','41440');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510520&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510520','1.760','2016-11-23','1.786','1.685','1.699','1636');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510560&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510560','1.350','2016-11-23','1.363','1.350','1.363','26');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159940&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159940','0.834','2016-11-23','0.890','0.826','0.828','1997');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512210&begin_date=2016-11-23&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510060&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510060','1.618','2016-11-23','1.630','1.615','1.624','9621');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511990&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511990','99.994','2016-11-23','99.996','99.985','99.990','6143598');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159911&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159911','4.341','2016-11-23','4.341','4.280','4.280','7');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510680&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510680','1.849','2016-11-23','1.859','1.835','1.841','153');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511860&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511860','99.987','2016-11-23','99.988','99.984','99.986','111417');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510440&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510440','1.919','2016-11-23','1.919','1.800','1.893','3628');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh513600&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('513600','2.075','2016-11-23','2.089','2.075','2.080','4587');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159948&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159948','2.189','2016-11-23','2.213','2.186','2.200','43530');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512640&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512640','1.753','2016-11-23','1.759','1.750','1.750','93');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159923&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159923','1.320','2016-11-23','1.330','1.310','1.316','531');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512600&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512600','1.514','2016-11-23','1.517','1.509','1.517','1441');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510700&begin_date=2015-10-14&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh513660&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('513660','2.061','2016-11-23','2.071','2.061','2.071','368');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512990&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512990','1.024','2016-11-23','1.030','1.021','1.025','13442');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512500&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512500','3.180','2016-11-23','3.195','3.178','3.184','1138');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512610&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512610','1.456','2016-11-23','1.460','1.450','1.458','10042');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh513030&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('513030','0.918','2016-11-23','0.921','0.916','0.916','18858');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159905&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159905','1.259','2016-11-23','1.265','1.250','1.250','26854');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510290&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510290','1.610','2016-11-23','1.618','1.610','1.618','7325');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510420&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510420','1.481','2016-11-23','1.489','1.481','1.489','303');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159942&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159942','1.931','2016-11-23','1.931','1.916','1.929','175');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510450&begin_date=2016-06-23&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159927&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159927','3.324','2016-11-23','3.344','3.300','3.321','301');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh518880&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('518880','2.717','2016-11-23','2.723','2.712','2.715','4399510');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159928&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159928','1.463','2016-11-23','1.466','1.460','1.464','754');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510500&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510500','6.933','2016-11-23','6.991','6.925','6.990','94522');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511960&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511960','99.987','2016-11-23','99.989','99.986','99.989','16977');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159938&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159938','1.338','2016-11-23','1.345','1.336','1.344','2106');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159933&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159933','1.666','2016-11-23','1.670','1.662','1.668','583');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh512120&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('512120','1.367','2016-11-23','1.380','1.367','1.380','22');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159926&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159926','110.795','2016-11-23','110.795','110.685','110.687','3');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510410&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510410','0.725','2016-11-23','0.725','0.720','0.720','4478');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159930&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159930','0.855','2016-11-23','0.861','0.849','0.859','643');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159920&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159920','1.247','2016-11-23','1.255','1.243','1.250','148660');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159919&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159919','3.739','2016-11-23','3.755','3.732','3.733','127607');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510510&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510510','1.822','2016-11-23','1.837','1.818','1.831','40524');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159949&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159949','0.922','2016-11-23','0.936','0.921','0.929','151032');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510610&begin_date=2016-03-29&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511800&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511800','99.988','2016-11-23','99.989','99.985','99.987','26763');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511970&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511970','99.987','2016-11-23','99.995','99.985','99.986','20175');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159917&begin_date=2015-08-27&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510170&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510170','1.825','2016-11-23','1.848','1.808','1.808','106');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510810&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510810','1.035','2016-11-23','1.041','1.031','1.036','363507');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510160&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510160','0.534','2016-11-23','0.536','0.531','0.534','21093');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh510020&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('510020','2.358','2016-11-23','2.365','2.301','2.301','2298');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159939&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159939','1.196','2016-11-23','1.204','1.191','1.202','22089');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159943&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('159943','11.500','2016-11-23','11.583','11.470','11.521','2748');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511910&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511910','99.988','2016-11-23','99.988','99.983','99.986','34462');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh511920&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_etf (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('511920','99.979','2016-11-23','100.000','99.962','99.990','8961');
+INFO: ########################################
+his_etf is updated to latest status.
+########################################
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz166009&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('166009','2.020','2016-11-23','2.038','2.020','2.035','107');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160133&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160133','1.787','2016-11-23','1.794','1.786','1.787','2347');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162703&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('162703','1.141','2016-11-23','1.149','1.141','1.141','6869');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160119&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160119','1.608','2016-11-23','1.618','1.608','1.618','1503');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162307&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('162307','1.048','2016-11-23','1.048','1.045','1.045','7');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161714&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161714','0.796','2016-11-23','0.799','0.793','0.798','1838');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz166001&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('166001','1.256','2016-11-23','1.256','1.248','1.251','71');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160918&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160918','1.811','2016-11-23','1.823','1.807','1.823','1750');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161706&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161706','1.476','2016-11-23','1.477','1.461','1.474','58');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160910&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160910','0.959','2016-11-23','0.961','0.959','0.961','686');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165516&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('165516','2.447','2016-11-23','2.452','2.447','2.452','7');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz166006&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('166006','1.020','2016-11-23','1.023','1.020','1.023','41');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161607&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161607','1.065','2016-11-23','1.070','1.062','1.066','560');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165509&begin_date=2016-11-16&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('165509','1.150','2016-11-23','1.150','1.149','1.149','168');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161115&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161115','1.764','2016-11-23','1.764','1.764','1.764','199');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165806&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('165806','1.162','2016-11-23','1.171','1.160','1.171','74');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160916&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160916','2.278','2016-11-23','2.290','2.276','2.283','1123');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161005&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161005','1.714','2016-11-23','1.720','1.709','1.720','1693');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163801&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('163801','1.230','2016-11-23','1.233','1.228','1.229','933');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160125&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160125','0.838','2016-11-23','0.845','0.836','0.837','17865');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz164606&begin_date=2016-11-04&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161907&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161907','1.487','2016-11-23','1.487','1.485','1.485','98');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163412&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('163412','2.692','2016-11-23','2.710','2.688','2.709','29105');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz167501&begin_date=2016-11-23&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161217&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161217','0.664','2016-11-23','0.667','0.663','0.667','331');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162105&begin_date=2016-11-19&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160717&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160717','0.736','2016-11-23','0.742','0.735','0.735','75309');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161505&begin_date=2016-11-17&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161505','1.080','2016-11-23','1.082','1.079','1.079','25');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161610&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161610','0.948','2016-11-23','0.956','0.948','0.952','2359');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161821&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161821','1.231','2016-11-23','1.231','1.231','1.231','9');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161903&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161903','0.944','2016-11-23','0.944','0.940','0.941','515');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160813&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160813','0.782','2016-11-23','0.787','0.780','0.780','1694');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160919&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160919','1.143','2016-11-23','1.149','1.142','1.143','2985');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160615&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160615','1.346','2016-11-23','1.348','1.345','1.348','18');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160807&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160807','1.153','2016-11-23','1.153','1.152','1.152','3');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162308&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('162308','1.115','2016-11-23','1.115','1.115','1.115','4');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162716&begin_date=2016-11-01&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162510&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('162510','1.118','2016-11-23','1.123','1.117','1.121','11');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162712&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('162712','1.433','2016-11-23','1.433','1.429','1.429','11597');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163302&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('163302','1.514','2016-11-23','1.518','1.512','1.512','163');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161820&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161820','1.116','2016-11-23','1.116','1.116','1.116','51');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161015&begin_date=2016-11-22&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161015','0.920','2016-11-23','0.920','0.920','0.920','1');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160812&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160812','1.470','2016-11-23','1.473','1.465','1.470','113');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162414&begin_date=2016-11-22&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160105&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160105','1.041','2016-11-23','1.048','1.041','1.048','117');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163824&begin_date=2016-11-23&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160806&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160806','1.298','2016-11-23','1.301','1.296','1.300','780');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161219&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161219','1.218','2016-11-23','1.218','1.156','1.216','634');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162605&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('162605','0.901','2016-11-23','0.906','0.901','0.906','472');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160212&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160212','2.255','2016-11-23','2.269','2.252','2.263','11074');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161216&begin_date=2016-11-23&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160805&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160805','0.840','2016-11-23','0.844','0.838','0.838','232');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165705&begin_date=2016-11-22&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163821&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('163821','1.500','2016-11-23','1.500','1.498','1.499','18');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz167901&begin_date=2016-04-27&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161017&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161017','2.133','2016-11-23','2.135','2.132','2.132','272');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz164208&begin_date=2016-11-17&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('164208','1.130','2016-11-23','1.130','1.128','1.128','102');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161722&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161722','1.073','2016-11-23','1.073','1.070','1.073','309');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161227&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161227','0.930','2016-11-23','0.932','0.925','0.928','25740');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165510&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('165510','0.761','2016-11-23','0.780','0.744','0.745','48003');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162711&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('162711','1.375','2016-11-23','1.388','1.375','1.386','3949');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163409&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('163409','1.615','2016-11-23','1.618','1.605','1.615','405');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160512&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160512','2.419','2016-11-23','2.420','2.193','2.408','4545');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz166008&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('166008','1.037','2016-11-23','1.038','1.035','1.038','361');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160106&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160106','1.346','2016-11-23','1.368','1.344','1.344','3238');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161831&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161831','0.927','2016-11-23','0.935','0.924','0.929','7270');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160311&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160311','1.323','2016-11-23','1.332','1.321','1.321','1932');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz166401&begin_date=2016-11-22&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('166401','1.066','2016-11-23','1.066','1.066','1.066','2');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160611&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160611','0.942','2016-11-23','0.943','0.937','0.940','1660');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160613&begin_date=2016-11-22&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160613','1.374','2016-11-23','1.375','1.374','1.374','298');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165508&begin_date=2016-11-22&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('165508','1.781','2016-11-23','1.785','1.780','1.785','17');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz166011&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('166011','1.255','2016-11-23','1.259','1.255','1.257','446');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162715&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('162715','1.095','2016-11-23','1.107','1.091','1.093','826');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161010&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161010','1.102','2016-11-23','1.102','1.101','1.101','17223');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160415&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160415','1.282','2016-11-23','1.285','1.282','1.285','5');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163415&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('163415','1.436','2016-11-23','1.446','1.436','1.442','30273');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160514&begin_date=2016-11-01&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160618&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160618','1.127','2016-11-23','1.127','1.127','1.127','160');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163110&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('163110','2.768','2016-11-23','2.782','2.764','2.775','13326');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162108&begin_date=2016-11-23&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160505&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160505','2.003','2016-11-23','2.006','1.995','1.995','17414');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160720&begin_date=2016-11-22&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161213&begin_date=2016-11-18&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161213','1.352','2016-11-23','1.352','1.352','1.352','3');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160617&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160617','1.028','2016-11-23','1.029','1.025','1.025','86');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh501000&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('501000','1.010','2016-11-23','1.013','1.009','1.013','457');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160134&begin_date=2016-11-01&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160215&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160215','1.505','2016-11-23','1.512','1.502','1.512','534');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160706&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160706','0.982','2016-11-23','0.988','0.980','0.982','91712');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz164105&begin_date=2016-11-22&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('164105','1.601','2016-11-23','1.601','1.601','1.601','6');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161506&begin_date=2016-11-01&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz164906&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('164906','1.001','2016-11-23','1.009','1.001','1.001','4446');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162607&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('162607','0.460','2016-11-23','0.463','0.459','0.462','4077');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163402&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('163402','1.633','2016-11-23','1.635','1.631','1.631','2124');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160716&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160716','1.233','2016-11-23','1.245','1.227','1.227','1116');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz166105&begin_date=2016-11-17&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz166012&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('166012','1.091','2016-11-23','1.097','1.072','1.073','133');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165313&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('165313','1.405','2016-11-23','1.415','1.400','1.408','3429');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160314&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160314','1.031','2016-11-23','1.036','1.030','1.032','2369');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162207&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('162207','1.170','2016-11-23','1.176','1.170','1.176','116');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161210&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161210','0.893','2016-11-23','0.901','0.883','0.890','706');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160132&begin_date=2016-11-01&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160513&begin_date=2016-11-16&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161822&begin_date=2016-11-01&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161119&begin_date=2016-11-17&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz166007&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('166007','1.224','2016-11-23','1.226','1.224','1.226','2');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165513&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('165513','0.480','2016-11-23','0.480','0.479','0.480','4066');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165517&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('165517','1.139','2016-11-23','1.139','1.139','1.139','28');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162006&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('162006','1.091','2016-11-23','1.098','1.090','1.095','654');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161813&begin_date=2016-11-15&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163407&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('163407','1.429','2016-11-23','1.430','1.426','1.426','155');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160123&begin_date=2016-11-01&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz164808&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('164808','1.015','2016-11-23','1.015','1.012','1.012','315');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz162511&begin_date=2016-11-01&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163001&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('163001','1.049','2016-11-23','1.055','1.049','1.051','26');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160810&begin_date=2016-11-23&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160124&begin_date=2016-11-01&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161810&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161810','1.724','2016-11-23','1.735','1.724','1.729','206');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz164902&begin_date=2016-11-19&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165314&begin_date=2016-11-01&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160915&begin_date=2016-11-23&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz164705&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('164705','1.026','2016-11-23','1.029','1.022','1.028','1317');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160616&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160616','1.339','2016-11-23','1.347','1.339','1.343','475');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165311&begin_date=2016-11-17&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161614&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161614','1.047','2016-11-23','1.047','1.040','1.042','149');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160721&begin_date=2016-11-01&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160515&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160515','1.027','2016-11-23','1.029','1.023','1.024','1287');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165512&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('165512','2.238','2016-11-23','2.242','2.238','2.242','3');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163819&begin_date=2016-11-17&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz165309&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('165309','1.036','2016-11-23','1.037','1.036','1.037','26');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161716&begin_date=2016-11-19&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160607&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160607','0.672','2016-11-23','0.673','0.670','0.672','1049');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161224&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161224','1.132','2016-11-23','1.135','1.130','1.132','1243');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz163503&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('163503','0.504','2016-11-23','0.509','0.503','0.505','4685');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160610&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160610','1.013','2016-11-23','1.013','1.010','1.013','1253');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160211&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160211','2.760','2016-11-23','2.775','2.755','2.768','1551');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161908&begin_date=2016-11-23&end_date=2016-11-24
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161226&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('161226','0.988','2016-11-23','0.989','0.985','0.988','547849');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz160220&begin_date=2016-11-23&end_date=2016-11-24
+INFO: insert into his_lof (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ('160220','1.310','2016-11-23','1.311','1.309','1.310','2063');
+INFO: http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz161120&begin_date=2016-11-01&end_date=2016-11-24
+INFO: ########################################
+his_lof is updated to latest status.
+########################################
