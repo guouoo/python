@@ -5,7 +5,7 @@ Created on Dec 10, 2015
 '''
 # coding=UTF-8
 
-#倒入支持库文件
+#导入支持库文件
 import pymysql
 import urllib.request
 import re
@@ -44,7 +44,7 @@ def connClose(conn,cur):
 
 conn,cur=connDB()#连接数据库 
 # universe = ('510500','159901','159919','159902','159937','518880','510500','511010','159915','159905','159903','510900') #定义Universe
-universe = ('510500','159915','513500','513100') #定义Universe
+universe = ('510880','510500','513500','513100','159901','510160','510230','510290','510900') #定义Universe
 
 #获取Universe内所有指数实时价格
 realtimeprice = []
