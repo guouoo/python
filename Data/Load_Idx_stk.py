@@ -84,6 +84,11 @@ def FormatFiles():
         stockprice = open(path+filename, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
         content = stockprice.readlines()
         del content[0]
+        # try:
+        #     del content[0]
+        # except Exception as e:
+        #     logging.info(e)
+
         for r in range(0,len(content)): 
             content[r] = re.sub('\'','',content[r]).strip()
             list = content[r].split(',') 

@@ -13,6 +13,8 @@ import time
 import datetime
 import logging
 from decimal import Decimal
+import sys
+from termcolor import colored, cprint
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -51,7 +53,7 @@ realtimeprice = []
 headers = {'User-Agent' : 'Mozilla/10 (compatible; MSIE 1.0; Windows NT 4.0)'}
 codes = str(universe).replace('\'','').replace(', 1',',s_sz1').replace(', 5',',s_sh5').replace('(','').replace(')','')
 url2 = 'http://qt.gtimg.cn/q=s_sh'+ codes
-# logging.info(url2)
+
 try:
     request = urllib.request.Request(url2,headers = headers)
     response = urllib.request.urlopen(request).read().decode('gbk')
@@ -59,8 +61,10 @@ try:
     realtemp = reobj.sub('',response).replace('~~";','').replace('\n','~').strip().split('~')
     # logging.info(realtemp)
     realtimeprice ={}
+    realtimechg={}
     for i in range(0,len(realtemp)-1,6):
         realtimeprice[realtemp[i]] = Decimal(realtemp[i+1])
+        realtimechg[realtemp[i]] = Decimal(realtemp[i+3])
 except Exception as e:
     print(e)
 
@@ -69,9 +73,10 @@ except Exception as e:
 sql1 = 'select date from data.his_idx where symbol = \'399300\' order by date desc limit 22'
 exeQuery(cur,sql1)
 sqlcontent = cur.fetchall()
+# logging.info(sqlcontent)
 
 tempdays = []
-daylist=[19,20,22]
+daylist=[5,19,20,22]
 for i in daylist:
     tempdays.append(datetime.date.isoformat(sqlcontent[i-1][0]))
 days = tuple(tempdays)
@@ -105,6 +110,8 @@ try:
 except Exception as e:
     print(e)
 
+# logging.info(dailyreturn)
+
 connClose(conn,cur)
 
 #打印标题
@@ -121,13 +128,33 @@ Message.info += title +'\n'
 temp = sorted(days,reverse=True)
 temp.reverse()
 
+day5 = dailyreturn[temp[-1]]
+temp.pop()
+
 for i in temp:
     lines = '-'*(size-10)+ i +'-'*(size+10)
     Message.info  += lines + '\n'
     print(lines)
     returntemp =  sorted(dailyreturn[i].items(), key=lambda d: d[1],reverse=True)
-    # logging.info(returntemp)
+
     for n in range(0,len(returntemp)):
-        temp = str(n + 1) + ' .  ' + str(returntemp[n][0]) + ' '+ str(sqlcontent3[returntemp[n][0]])+ ' : ' + str(returntemp[n][1]) + '%'
-        print(temp)
+        temp = str(n + 1) + ' .  ' + str(returntemp[n][0]) + ' '+ str(sqlcontent3[returntemp[n][0]])+ ': ' + str(returntemp[n][1]) + '%'
+        temp2 =  ' | D: '+str(realtimechg[returntemp[n][0]]) + '%'
+        temp3 =  ' | W: '+str(day5[returntemp[n][0]]) + '%'
+
+        if returntemp[n][1] > 0:
+            cprint(temp,'green',end="")
+        else:
+            cprint(temp,'white',end="")
+
+        if realtimechg[returntemp[n][0]] <= -3:
+            cprint(temp2, 'red',end="")
+        else:
+            cprint(temp2, 'white',end="")
+
+        if day5[returntemp[n][0]] <= -5:
+            cprint(temp3, 'red')
+        else:
+            cprint(temp3, 'white')
+
         Message.info += temp + '\n'
