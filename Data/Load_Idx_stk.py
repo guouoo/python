@@ -13,11 +13,11 @@ import re
 import pymysql
 import logging
 
-path ='C:/src/' #下载、处理和导入数据路径
+path ='C:/temp/' #下载、处理和导入数据路径
 
 BASE_DIR = os.path.dirname(__file__)
 LOG_PATH = BASE_DIR +'/log/data_update/'
-LOG_FILENAME = str(time.strftime('%Y%m%d_%H%M%S',time.localtime(time.time()))) + '.txt'
+LOG_FILENAME = str(time.strftime('%Y%m%d_%H%M%S',time.localtime(time.time()))) + '_idxstk.txt'
 logging.basicConfig(
     filename = LOG_PATH + LOG_FILENAME,
     level=logging.DEBUG,
@@ -26,11 +26,12 @@ logging.basicConfig(
 )
 
 def DownloadPrice(table):
-    conn,cur=connDB() 
+    conn,cur =connDB()
     
     dateinfo = exeQuery(cur,'select symbol,maxdate FROM data.id_list where source = \''+ table +'\'order by symbol').fetchall()
-    maxdate=dict(dateinfo)
-    symbolList=tuple(maxdate)
+    maxdate = dict(dateinfo)
+    symbolList = tuple(maxdate)
+    symbolList = sorted(symbolList)
     enddate = time.strftime( '%Y%m%d', time.localtime( time.time() ) )
 
     for k in range(0,len(symbolList)) :
@@ -60,15 +61,6 @@ def connDB(): #连接数据库函数
     conn=pymysql.connect(host='localhost',user='root',passwd='66196619',db='data',charset='utf8')
     cur=conn.cursor();
     return (conn,cur);
-
-def exeUpdate(cur,sql):#更新语句，可执行update,insert语句
-    sta=cur.execute(sql);
-    return(sta);
-
-def exeDelete(cur,IDs): #删除语句，可批量删除
-    for eachID in IDs.split(' '):
-        sta=cur.execute('delete from relationTriple where tID =%d'% int(eachID));
-    return (sta);
 
 def exeQuery(cur,sql):#查询语句
     cur.execute(sql);

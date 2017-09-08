@@ -12,7 +12,7 @@ import os
 import re
 import pymysql 
 
-path ='C:/src3/' #Stock 下载、处理和导入数据路径
+path ='C:/temp/' #Stock 下载、处理和导入数据路径
 
 def DownloadPrice(table):
     conn,cur=connDB() 
@@ -150,7 +150,7 @@ def LoadDataToDB(table):
 
 
 # DownloadPrice('his_idx')
-# DownloadPrice('his_stk')
-LoadDataToDB('his_stk')
+DownloadPrice('his_stk')
+# LoadDataToDB('his_stk')
 # FormatFiles()
                           

@@ -6,13 +6,11 @@ Created on Nov 23, 2015
 
 
 # coding=UTF-8
-import urllib.request
+import tushare as ts
 import time
 import datetime
-import re
 import pymysql
 import logging
-from bs4 import BeautifulSoup
 import os
 
 BASE_DIR = os.path.dirname(__file__)
@@ -48,51 +46,37 @@ def connClose(conn,cur):#关闭所有连接
     conn.commit();
     conn.close();
 
-def LoadHistory(list):
-    
-    conn,cur=connDB()
-    # sdate= '1900-01-01';
-    edate= time.strftime('%Y-%m-%d',time.localtime(time.time()));
-    
-#     Historylist = open(list, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
-#     symbolList=Historylist.readlines()
-    
-    dateinfo = exeQuery(cur,'select symbol,maxdate FROM data.id_list where source =\''+ list + '\'').fetchall()
-    maxdate=dict(dateinfo)
-    symbolList=tuple(maxdate)
 
-    for k in range(0,len(symbolList)):
-        symbol=symbolList[k]
-        sdate = str(maxdate[symbolList[k]]+datetime.timedelta(days = 1))
-        if sdate >= edate:
-            continue
-        if symbolList[k][0] != '5':
-            url = 'http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz' + symbol + '&begin_date=' + sdate + '&end_date=' + edate
-        else:
-            url = 'http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sh' + symbol + '&begin_date=' + sdate + '&end_date=' + edate
-        logging.info(url)
-            # http://biz.finance.sina.com.cn/stock/flash_hq/kline_data.php?symbol=sz159901&begin_date=20060315&end_date=20161015
-        Temp = urllib.request.urlopen(url).read()
+def LoadStockHistory(list):
+    conn, cur = connDB();
+    dateinfo = exeQuery(cur, 'select symbol , maxdate FROM data.id_list where source = \''+ list + '\'').fetchall()
+    # edate = time.strftime('%Y-%m-%d', time.localtime(time.time()));
+    edate = datetime.date.today();
 
-        tag = BeautifulSoup(Temp, "xml").findAll("content")
-        for j in range(0, len(tag)):
-            tradeinfo = str(tag[j]).replace('<content bl="" c="', ',\'').replace('"/>', '\')')
-            tradedata = '(\'' + symbol + '\'' + re.sub(r'"..="', '\',\'', tradeinfo)
+    for k in range(0,len(dateinfo)):
+        conn, cur = connDB()
+        sdate=dateinfo[k][1]
 
-            istsql = 'insert into ' + list + ' (symbol,closeprice,date,highprice,lowprice,openprice,volume) values ' + tradedata + ';'
-            logging.info(istsql)
+        if sdate >  edate:
+           continue
+        try:
+            pricedata = ts.get_k_data(dateinfo[k][0], ktype='D', start=sdate, end=edate);
+
+        except Exception as e:
+            logging.info(e)
+
+        for h in range(0,len(pricedata)):
+            values = str(pricedata.values[h]).replace('\' \'','\', \'').replace('[','').replace(']',');')
+            insql = 'insert into ' + list + ' (date,openprice,closeprice,highprice,lowprice,volume,symbol) values (' + values
+            logging.info(insql)
             try:
-                conn.cursor().execute(istsql)
-                    #print(istsql)
+                conn.cursor().execute(insql)
             except Exception as e:
-                print(e)
-                print(istsql)
-#         print(symbolList[k] + ' : Records from \'' + sdate + '\' to \'' + edate + '\' are inserted into table \'' + list + '\'')
-               
-#     Historylist.close()
-    logging.info('''########################################''' +'\n' + list + ' is updated to latest status.' +'\n' + '''########################################''')
+                logging.info(e)
+
+        conn.commit()
+        logging.info(str(dateinfo[k][0]) + ' is inserted' )
     connClose(conn, cur)
 
-LoadHistory('his_etf')
-LoadHistory('his_lof')
-#LoadHistory('his_classfund')
+LoadStockHistory('his_etf')
+LoadStockHistory('his_lof')

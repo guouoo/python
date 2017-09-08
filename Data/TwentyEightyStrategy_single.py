@@ -35,18 +35,14 @@ def exeQuery(cur,sql):
     cur.execute(sql);
     return (cur);
 
-def exeUpdate(cur,sql):
-    sta=cur.execute(sql);
-    return(sta);
-
 def connClose(conn,cur):
     cur.close();
     conn.commit();
     conn.close();
 
 conn,cur=connDB()#连接数据库 
-# universe = ('510500','159901','159919','159902','159937','518880','510500','511010','159915','159905','159903','510900') #定义Universe
-universe = ('510880','510500','513500','513100','159901','510160','510230','510290','510900') #定义Universe
+universe = ('510500','159901','159919','159902','159937','518880','510500','511010','159915','159905','159903','510900') #定义Universe
+# universe = ('510880','510500','513500','513100','159901','510160','510900') #定义Universe
 
 #获取Universe内所有指数实时价格
 realtimeprice = []
@@ -76,7 +72,7 @@ sqlcontent = cur.fetchall()
 # logging.info(sqlcontent)
 
 tempdays = []
-daylist=[5,19,20,22]
+daylist=[2,3,8,19,22]
 for i in daylist:
     tempdays.append(datetime.date.isoformat(sqlcontent[i-1][0]))
 days = tuple(tempdays)
@@ -124,13 +120,13 @@ Message.info += title +'\n'
 #预定义指数与ETF关系
 
 
-#输出计算结果
 temp = sorted(days,reverse=True)
 temp.reverse()
 
 day5 = dailyreturn[temp[-1]]
 temp.pop()
 
+#输出计算结果
 for i in temp:
     lines = '-'*(size-10)+ i +'-'*(size+10)
     Message.info  += lines + '\n'
@@ -158,3 +154,4 @@ for i in temp:
             cprint(temp3, 'white')
 
         Message.info += temp + '\n'
+

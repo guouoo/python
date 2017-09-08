@@ -76,5 +76,5 @@ def LoadHistory(list):
 
 
 LoadHistory('nav_etf')
-# LoadHistory('nav_lof')
+#LoadHistory('nav_lof')
 # LoadHistory('his_classfund')
