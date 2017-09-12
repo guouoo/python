@@ -1,0 +1,1631 @@
+INFO: Loading is start at 20170911_184023
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000018-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000028-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000030-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000030-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000033-2017-07-04' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000033-2017-07-05' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000033-2017-07-06' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000034-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000037-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000055-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000056-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000060-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000090-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000096-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000096-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000153-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000158-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000166-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000402-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000502-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000502-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000505-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000507-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000510-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000514-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000521-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000539-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000548-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000554-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000554-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000558-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000568-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000576-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000582-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000584-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000591-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000594-2015-07-10' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000601-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000605-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000628-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000632-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000637-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000661-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000668-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000687-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000690-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000691-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000692-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000692-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000692-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000697-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000698-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000698-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000698-2017-09-11' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000719-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000739-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000753-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000753-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000753-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000761-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000762-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000785-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000785-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000801-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000802-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000802-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000802-2017-09-11' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000802-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000802-2017-09-11' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000802-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000802-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000807-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000819-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000835-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000837-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000861-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000876-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000878-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000888-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000900-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000901-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000902-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000903-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000905-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000906-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000908-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000909-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000910-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000911-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000912-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000913-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000915-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000916-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000917-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000918-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000933-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000949-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000952-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000978-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000983-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000985-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '000987-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000993-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '000999-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '001896-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002005-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002011-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002014-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002052-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002057-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002060-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002069-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002074-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002074-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002079-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002109-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002114-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002128-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002140-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002142-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002167-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002172-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002188-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002221-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002223-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002224-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002225-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002227-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002229-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002230-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002231-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002232-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002233-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002234-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002235-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002247-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002251-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002255-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002258-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002258-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002262-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002281-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002288-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002310-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002312-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002313-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002314-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002315-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002316-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002319-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002330-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002340-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002351-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002353-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002354-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002355-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002355-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002355-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002357-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002358-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002372-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002381-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002398-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002408-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002425-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002433-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002434-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002437-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002441-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002446-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002452-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002472-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002480-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002483-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002485-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002487-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002492-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002503-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002503-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002503-2017-09-11' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002503-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002503-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002507-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002508-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002530-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002531-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002532-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002533-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002536-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002537-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002568-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002575-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002585-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002595-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002605-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002618-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002620-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002620-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002624-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002637-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002641-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002647-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002649-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002653-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002667-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002667-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002675-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002680-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002681-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002682-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002683-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002683-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002683-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002685-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002686-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002687-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002688-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002689-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002693-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002700-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002721-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002730-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002732-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002738-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002738-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002748-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002750-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002753-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002755-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002755-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002758-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002759-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002760-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002762-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002763-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002765-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002766-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002767-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002768-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002773-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002780-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002786-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002805-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002819-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002821-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002822-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002822-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002822-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002824-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002826-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002827-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002828-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002829-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002830-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002831-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002832-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002835-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002836-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002836-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002836-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002838-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002839-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002845-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002845-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002845-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '002848-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002850-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002850-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002853-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002853-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002857-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002857-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002857-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002861-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '002861-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159901-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159902-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159903-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159905-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159906-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159907-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159908-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159909-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159910-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159911-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159912-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159913-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159915-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159916-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159917-2015-08-26' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159918-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159919-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159920-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159921-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159922-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159923-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159924-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159925-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159926-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159927-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159928-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159929-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159930-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159931-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159932-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159933-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159934-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159935-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159936-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159937-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159938-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159939-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159940-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159941-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159942-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159943-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159944-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159945-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159946-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159948-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '159949-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160105-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160106-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160119-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160123-2016-08-16' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160125-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160133-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160211-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160212-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160215-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160220-2017-09-06' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160311-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160314-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160415-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160505-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160512-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160513-2017-09-01' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160515-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160607-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160610-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160611-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160613-2017-09-06' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160615-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160616-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160617-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160618-2017-09-04' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160706-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160716-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160717-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160720-2017-09-06' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160805-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160806-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160807-2017-09-04' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160810-2017-08-30' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160812-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160813-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160910-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160915-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160916-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160918-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '160919-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161005-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161010-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161015-2017-09-05' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161017-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161115-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161119-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161210-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161213-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161216-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161217-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161219-2017-09-06' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161224-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161226-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161227-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161505-2017-09-06' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161607-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161610-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161614-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161706-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161714-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161716-2017-09-05' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161722-2017-08-29' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161810-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161813-2017-09-04' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161820-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161821-2017-07-12' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161831-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161903-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161907-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '161908-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162006-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162105-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162108-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162207-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162307-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162308-2017-04-27' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162414-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162510-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162605-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162607-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162703-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162711-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162712-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '162715-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163001-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163110-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163302-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163402-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163407-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163409-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163412-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163415-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163503-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163801-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163819-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163821-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '163824-2017-09-04' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '164105-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '164208-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '164606-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '164705-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '164808-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '164902-2017-09-04' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '164906-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165309-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165311-2017-08-30' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165313-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165508-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165509-2017-09-04' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165510-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165512-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165513-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165516-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165517-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165705-2017-07-28' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '165806-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '166001-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '166006-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '166007-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '166008-2017-09-06' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '166009-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '166011-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '166012-2017-08-18' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '166105-2017-08-28' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '166401-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '167501-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300002-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300003-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300004-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300006-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300007-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300008-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300009-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300016-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300021-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300033-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300084-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300088-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300091-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300099-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300103-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300108-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300112-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300124-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300130-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300135-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300137-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300138-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300139-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300139-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300139-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300144-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300144-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300144-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300146-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300148-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300148-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300148-2017-09-11' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300155-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300159-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300162-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300162-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300176-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300179-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300185-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300191-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300193-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300196-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300208-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300221-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300233-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300260-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300261-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300262-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300263-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300264-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300266-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300266-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300266-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300268-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300269-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300270-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300270-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300289-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300289-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300310-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300312-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300316-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300317-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300339-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300342-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300369-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-07-28' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-07-31' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-01' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-02' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-03' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-04' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-09' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-10' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-14' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-15' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-16' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-17' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-18' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-21' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-22' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-23' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-24' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300372-2017-08-25' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300375-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300383-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300385-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300387-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300403-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300412-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300412-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300424-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300425-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300426-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300427-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300430-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300450-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300451-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300453-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300455-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300456-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300458-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300460-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300460-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300463-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300465-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300465-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300471-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300491-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300511-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300513-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300520-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300533-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300534-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300535-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300553-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300589-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300591-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300592-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '300593-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300602-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300602-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300605-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300611-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300615-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300617-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300619-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300619-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300623-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300623-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300623-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300628-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300628-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300631-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300635-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300637-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300637-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300642-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300642-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300642-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300642-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300642-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '300649-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '501000-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510010-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510020-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510030-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510050-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510060-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510070-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510090-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510110-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510120-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510130-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510150-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510160-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510170-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510180-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510190-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510210-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510220-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510230-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510260-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510270-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510280-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510290-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510300-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510310-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510330-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510360-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510410-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510420-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510430-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510440-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510500-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510510-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510520-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510560-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510580-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510610-2016-03-28' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510620-2016-03-28' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510630-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510650-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510660-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510680-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510710-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510810-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510880-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '510900-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511010-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511210-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511220-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511600-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511800-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511810-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511830-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511860-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511880-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511890-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511900-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511910-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511920-2017-09-05' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511960-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511970-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511980-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511990-2017-09-07' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '511990-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512000-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512010-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512070-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512110-2016-09-20' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512120-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512210-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512220-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512230-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512300-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512310-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512330-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512340-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512500-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512510-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512600-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512610-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512640-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512660-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512680-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512810-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512880-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '512990-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '513030-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '513100-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '513500-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '513600-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '513660-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '518880-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600000-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600000-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600004-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600048-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600064-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600070-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600071-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600072-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600073-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600073-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600073-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600075-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600076-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600078-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600079-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600082-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600082-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600086-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600099-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600101-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600143-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600143-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600175-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600180-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600180-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600190-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600191-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600192-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600193-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600195-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600196-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600197-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600198-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600199-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600203-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600208-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600227-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600238-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600247-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600252-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600252-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600262-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600285-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600290-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600291-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600292-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600293-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600295-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600295-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600295-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600297-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600298-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600299-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600327-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600330-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600331-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600332-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600333-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600335-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600336-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600337-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600338-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600339-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600345-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600352-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600356-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600356-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600386-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600388-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600420-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600421-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600422-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600423-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600425-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600426-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600428-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600429-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600429-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600429-2017-09-11' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600448-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600452-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600452-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600452-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600456-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600458-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600459-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600467-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600470-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600483-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600510-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600511-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600512-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600513-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600515-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600516-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600517-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600518-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600519-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600552-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600555-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600558-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600568-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600578-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600580-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600590-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600600-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600601-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600602-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600603-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600604-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600605-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600606-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600606-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600606-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600608-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600609-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600626-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600630-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600653-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600653-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600653-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600665-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600671-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600671-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600671-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600674-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600675-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600676-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600677-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600678-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600679-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600690-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600691-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600692-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600693-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600694-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600695-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600697-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600699-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600702-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600703-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600704-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600705-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600706-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600707-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600708-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600714-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600719-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600724-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600732-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600761-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600777-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600785-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600805-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600818-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600824-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600831-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600839-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600841-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600850-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600851-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600853-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600854-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600855-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600856-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600857-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600858-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600859-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600869-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600869-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600889-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600897-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600936-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600958-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600969-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600973-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600984-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600990-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '600990-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600990-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600992-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600993-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600995-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600996-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600997-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600998-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '600999-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '601003-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '601058-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601106-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601107-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601111-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601113-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601116-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601117-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601188-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601199-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '601199-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601258-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '601258-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601258-2017-09-11' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '601288-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '601311-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601368-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601369-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601628-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '601700-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601800-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601801-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601808-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601811-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601818-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '601866-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601988-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '601988-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '601988-2017-09-11' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '601998-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603008-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603028-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603040-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603077-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603077-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603089-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603123-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603128-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603128-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603128-2017-09-11' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603138-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603178-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603223-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603228-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603298-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603298-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603298-2017-09-11' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603300-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603319-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603345-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603377-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603377-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603393-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603398-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603399-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603421-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603456-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603456-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603508-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603528-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603577-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603585-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603585-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603589-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603656-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603658-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603663-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603716-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603726-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603727-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603727-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603727-2017-09-11' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603766-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603766-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603766-2017-09-11' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603779-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603800-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603828-2017-09-08' for key 'PRIMARY'")
+INFO: (1062, "Duplicate entry '603838-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603859-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603903-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603919-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603919-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603929-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603939-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603969-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603979-2017-09-08' for key 'PRIMARY'")
+INFO: 'hfqday'
+INFO: 'qfqday'
+INFO: (1062, "Duplicate entry '603990-2017-09-08' for key 'PRIMARY'")
+INFO: 603999 is loaded into database.
+INFO: Loading is finished at 20170911_184925
