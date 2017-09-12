@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2669d4-cf9b-483c-9182-07a4b3de25da" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/2017-09-08_Updating Status.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/2017-09-11_Updating Status.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170908_213017.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170908_214011_idxstk.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170908_221016_NAV.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170909_221016_NAV.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170911_184023_fq.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170911_185146_1m.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170911_194137_5m.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170911_213012.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170911_214011_idxstk.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170911_221017_NAV.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="code.iws" />
@@ -223,7 +211,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -593,7 +581,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505212538572</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Remove logs">
+      <created>1505212621883</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1505212621883</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -666,7 +661,8 @@
     <MESSAGE value="1. Add daily/weekly changes percentage for the reference of risks&#10;2. Add colors for large changes" />
     <MESSAGE value="Add lots of changes on files" />
     <MESSAGE value="Add new modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new modules" />
+    <MESSAGE value="Remove logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove logs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
