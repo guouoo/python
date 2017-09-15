@@ -71,14 +71,4 @@ plt.plot(np_data[:,0], lowerband,'k-',lw = 0.8 )
 plt.grid(True)
 #
 #
-# series = np.random.choice([1, -1], size=200)
-# close = np.cumsum(series).astype(float)
-#
-# upperband, middleband, lowerband = ta.BBANDS(close, timeperiod=5, nbdevup=2, nbdevdn=2, matype=0)
-# fig, axes = plt.subplots(2, 1, sharex=True)
-# ax1, ax2 = axes[0], axes[1]
-# axes[0].plot(close, 'rd-', markersize=3)
-# axes[0].plot(upperband, 'y-')
-# axes[0].plot(middleband, 'b-')
-# axes[0].plot(lowerband, 'y-')
-#axes[0].set_title('布林线', fontproperties="SimHei")
+# seri
