@@ -12,12 +12,19 @@ import os
 import re
 import pymysql
 import logging
+import shutil
+
+
 
 path ='C:/temp/' #下载、处理和导入数据路径
+shutil.rmtree(path)
+if not os.path.isdir(path):
+    os.makedirs(path)
+
 
 BASE_DIR = os.path.dirname(__file__)
 LOG_PATH = BASE_DIR +'/log/data_update/'
-LOG_FILENAME = str(time.strftime('%Y%m%d_%H%M%S',time.localtime(time.time()))) + '_idxstk.txt'
+LOG_FILENAME = str(time.strftime('%Y%m%d_%H%M%S',time.localtime(time.time()))) + '_idx_stk.txt'
 logging.basicConfig(
     filename = LOG_PATH + LOG_FILENAME,
     level=logging.DEBUG,
@@ -27,7 +34,7 @@ logging.basicConfig(
 
 def DownloadPrice(table):
     conn,cur =connDB()
-    
+
     dateinfo = exeQuery(cur,'select symbol,maxdate FROM data.id_list where source = \''+ table +'\'order by symbol').fetchall()
     maxdate = dict(dateinfo)
     symbolList = tuple(maxdate)
@@ -81,9 +88,9 @@ def FormatFiles():
         # except Exception as e:
         #     logging.info(e)
 
-        for r in range(0,len(content)): 
+        for r in range(0,len(content)):
             content[r] = re.sub('\'','',content[r]).strip()
-            list = content[r].split(',') 
+            list = content[r].split(',')
             del list[2]
             del list[6:8]
             del list[7]
@@ -93,7 +100,7 @@ def FormatFiles():
             line = str(list).replace('[','(').replace(']',')').replace('None','0')
             content[r] = line
         stockprice.close()
-         
+
         stockvalue = open(path+filename, mode='w+', encoding=None, errors=None, newline=None, closefd=True, opener=None)
         for r2 in range(0,len(content)):
             stockvalue.writelines(content[r2]+'\n')
@@ -101,7 +108,7 @@ def FormatFiles():
         logging.info(filename + ' is formated.')
 
 def LoadDataToDB(table):
-    conn,cur=connDB()      
+    conn,cur=connDB()
     for filename in os.listdir(path):
         stock = open(path+filename, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
         hisprice = stock.readlines()
@@ -115,12 +122,12 @@ def LoadDataToDB(table):
         conn.commit();
         logging.info(filename + ' is loaded into database.')
         stock.close()
-        try: 
+        try:
             os.remove(path + filename)
             logging.info(filename + ' is deleted.')
         except Exception as e:
             logging.info(e)
-     
+
     connClose(conn, cur)
     logging.info('''########################################''' +'\n' + table + ' is updated to latest status.' +'\n' + '''########################################''')
 

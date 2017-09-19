@@ -41,8 +41,8 @@ def connClose(conn,cur):
     conn.close();
 
 conn,cur=connDB()#连接数据库 
-universe = ('510500','159901','159919','159902','159937','518880','510500','511010','159915','159905','159903','510900') #定义Universe
-# universe = ('510880','510500','513500','513100','159901','510160','510900') #定义Universe
+universe = ('512000','510500','159901','159919','159902','159937','518880','510500','511010','159915','159905','159903','510900') #定义Universe
+# universe = ('512000','510880','510500','513500','513100','159901','510160','510900') #定义Universe
 
 #获取Universe内所有指数实时价格
 realtimeprice = []
@@ -72,7 +72,7 @@ sqlcontent = cur.fetchall()
 # logging.info(sqlcontent)
 
 tempdays = []
-daylist=[8,9,10,20]
+daylist=[8,10,20]
 for i in daylist:
     tempdays.append(datetime.date.isoformat(sqlcontent[i-1][0]))
 days = tuple(tempdays)

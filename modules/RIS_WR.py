@@ -49,7 +49,7 @@ for n in wr_n:
     calc_willr = 100 + ta.WILLR(wr_high,wr_low,wr_close, timeperiod=n)
     s1 = pd.Series(calc_willr,index = wr_data.index,name='wr_' + str(n))
     wr_data = pd.concat([wr_data,s1], axis=1).round(1)
-
+wr_data.plot()
 # RSI的计算
 rsi_n = wr_n
 rsi_data = table_data.date
@@ -58,7 +58,7 @@ for n in wr_n:
     calc_rsi = ta.RSI(rsi_real,timeperiod = n)
     s2 = pd.Series(calc_rsi,index = rsi_data.index,name='rsi_' + str(n))
     rsi_data = pd.concat([rsi_data,s2], axis=1).round(1)
-
+rsi_data.plot()
 # fig, ax = plt.subplots()
 # fig.subplots_adjust(bottom=0.2)
 # # 设置X轴刻度为日期时间
@@ -73,15 +73,7 @@ for n in wr_n:
 # # plt.plot(np_data[:,0], lowerband,'k-',lw = 0.8 )
 # plt.grid( linestyle='-.', linewidth=0.5)
 
-# K线模式识别
-k_open = np.array(table_data['openprice_q'])
-k_high = np.array(table_data['highprice_q'])
-k_low = np.array(table_data['lowprice_q'])
-k_close = np.array(table_data['closeprice_q'])
-# 函数名：CDL2CROWS 两只乌鸦
-# 简介：三日K线模式，第一天长阳，第二天高开收阴，第三天再次高开继续收阴，收盘比前一日收盘价低，预示股价下跌。
 
-res = ta.CDL2CROWS(k_open,k_high,k_low,k_close)
 
 
 
