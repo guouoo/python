@@ -11,7 +11,7 @@ import logging
 import pymysql
 import matplotlib.pyplot as plt
 from matplotlib.dates import DateFormatter, WeekdayLocator, DayLocator, MONDAY,YEARLY,date2num
-from matplotlib.finance import candlestick_ohlc as candlestick
+from mpl_finance import candlestick_ohlc  as candlestick
 
 
 import numpy as np
@@ -36,7 +36,7 @@ def connClose(conn,cur):#关闭所有连接
     conn.close();
     
 conn,cur =connDB()
-query_sql = 'select date, openprice_q,highprice_q,lowprice_q,closeprice_q from data.his_stk_fq where symbol = \'002456\'  and date between \'2017-01-01\' and \'2017-09-06\' order by date asc '
+query_sql = 'select date, openprice_q,highprice_q,lowprice_q,closeprice_q from data.his_stk_fq where symbol = \'002456\'  and date between \'2017-03-01\' and \'2017-10-11\' order by date asc '
 try:
     table_data = pd.read_sql_query(query_sql,conn)
 except Exception as e:
@@ -63,12 +63,13 @@ ax.xaxis.set_major_formatter(DateFormatter('%Y-%m-%d'))
 plt.xticks(rotation=45)
 plt.yticks()
 candlestick(ax,np_data,width=0.8,colorup='r',colordown='green')
-# plt.plot(np_data[:,0], sma_5,'r-', lw = 1 ,label='MA_5d')
+# plt.plot(np_data[:,0], sma_5,'r-', lw = 1 ,label='MA_5pyderd')
 # plt.plot(np_data[:,0], sma_20,'b-',lw = 1 ,label='MA_20d')
-plt.plot(np_data[:,0], upperband,'k-', lw = 0.8 )
-plt.plot(np_data[:,0], middleband,'c-',lw = 1)
-plt.plot(np_data[:,0], lowerband,'k-',lw = 0.8 )
+# plt.plot(np_data[:,0], upperband,'k-', lw = 0.8 )
+# plt.plot(np_data[:,0], middleband,'c-',lw = 1)
+# plt.plot(np_data[:,0], lowerband,'k-',lw = 0.8 )
 plt.grid(True)
+plt.show()
 #
 #
 # seri
