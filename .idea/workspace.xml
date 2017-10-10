@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2669d4-cf9b-483c-9182-07a4b3de25da" name="Default" comment="More codes for ta_lib, include a mode on RSI and W%R">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/KDJ.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/2017-09-18_Updating Status.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170918_151819_idxstk.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170918_153243_idxstk.txt" afterPath="" />
@@ -13,7 +12,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170918_214012_idx_stk.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Data/log/data_update/20170918_221016_NAV.log" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/modules/~$三重滤网.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/~WRL1809.tmp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/bbands usage.py" afterPath="$PROJECT_DIR$/modules/bbands usage.py" />
     </list>
@@ -39,9 +37,10 @@
         <entry file="file://$PROJECT_DIR$/modules/bbands usage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="223">
-              <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+              <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
               <folding>
                 <element signature="e#83#102#0" expanded="true" />
+                <marker date="1507606283821" expanded="true" signature="2055:2065" ph="..." />
               </folding>
             </state>
           </provider>
@@ -620,7 +619,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507533155251</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="More codes for KDJ">
+      <created>1507606244158</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1507606244158</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -686,6 +692,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <MESSAGE value="New Patch for Python" />
     <MESSAGE value="Change ETF and LOF data source, then we have daily High/Low/Open/Close price for them now." />
     <MESSAGE value="ClNAV help to calculate SharpRatio.&#10;Date : 2016-11-04&#10;Symbol&#9;Name&#9;SharpRatio&#10;159901&#9;深100ETF&#9;0.5008&#10;159902&#9;中小板&#9;0.4622&#10;159903&#9;深成ETF&#9;0.0578&#10;159905&#9;深红利&#9;0.1379&#10;159915&#9;创业板&#9;0.5803&#10;159919&#9;300ETF&#9;0.3039&#10;510500&#9;500ETF&#9;0.6356&#10;510900&#9;H股ETF&#9;0.018&#10;511010&#9;国债ETF&#9;0.4444&#10;159937&#9;博时黄金ETF&#9;0.278&#10;518880&#9;华安黄金易ETF&#9;0.0071" />
@@ -695,7 +702,8 @@
     <MESSAGE value="Add new modules" />
     <MESSAGE value="Remove logs" />
     <MESSAGE value="More codes for ta_lib, include a mode on RSI and W%R" />
-    <option name="LAST_COMMIT_MESSAGE" value="More codes for ta_lib, include a mode on RSI and W%R" />
+    <MESSAGE value="More codes for KDJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="More codes for KDJ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1005,9 +1013,10 @@
     <entry file="file://$PROJECT_DIR$/modules/bbands usage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           <folding>
             <element signature="e#83#102#0" expanded="true" />
+            <marker date="1507606283821" expanded="true" signature="2055:2065" ph="..." />
           </folding>
         </state>
       </provider>
