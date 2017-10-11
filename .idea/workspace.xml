@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ba2669d4-cf9b-483c-9182-07a4b3de25da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Load_5mins.py" afterPath="$PROJECT_DIR$/Data/Load_5mins.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Load_fqdata.py" afterPath="$PROJECT_DIR$/Data/Load_fqdata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/KDJ.py" afterPath="$PROJECT_DIR$/modules/KDJ.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/test.py" afterPath="$PROJECT_DIR$/modules/test.py" />
     </list>
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -698,7 +694,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507606316591</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fix bugs for load data from tushare">
+      <created>1507721453424</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1507721453424</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView">
@@ -719,7 +722,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38556933" sideWeight="0.5067514" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43629697" sideWeight="0.4932486" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43629697" sideWeight="0.4932486" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15254237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939035" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20638086" sideWeight="0.5050125" order="2" side_tool="true" content_ui="tabs" />
@@ -775,7 +778,8 @@
     <MESSAGE value="Remove logs" />
     <MESSAGE value="More codes for KDJ" />
     <MESSAGE value="More codes for ta_lib, include a mode on RSI and W%R" />
-    <option name="LAST_COMMIT_MESSAGE" value="More codes for ta_lib, include a mode on RSI and W%R" />
+    <MESSAGE value="Fix bugs for load data from tushare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix bugs for load data from tushare" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
