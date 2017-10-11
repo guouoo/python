@@ -22,7 +22,7 @@ plt.grid(True)
 bars['slowk'], bars['slowd'] = ta.STOCH(bars['high'].values,
                                         bars['low'].values,
                                         bars['close'].values,
-                                        fastk_period=9,
+                                        fastk_period=5,
                                         slowk_period=3,
                                         slowk_matype=0,
                                         slowd_period=3,

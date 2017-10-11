@@ -13,13 +13,7 @@ logging.basicConfig(
     format="%(levelname)s: %(message)s"
 )
 
-return_order = {'510880.XSHG': 1.012,'510500.XSHG': 1.002,'513500.XSHG': 1.035,'513100.XSHG':0.998}
-# stock_order  = sorted(return_order.items(),key=lambda item:item[1])
-# order  = stock_order[-1]
-keys = list(return_order.keys())[0]
-logging.info(keys)
-# stocks = '159901.XSHE'
-# logging.info(stocks)
-# stocks = ['510880.XSHG','510500.XSHG','513500.XSHG','513100.XSHG','159901.XSHE','510160.XSHG','510900.XSHG']
-# for stock in stocks:
-#     logging.info(stock)
+sdate = '2010-01-01'
+enddate = '2011-01-01'
+qfqdata = ts.get_k_data('002456', start=sdate, end=enddate);
+logging.info(qfqdata)

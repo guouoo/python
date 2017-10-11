@@ -37,6 +37,7 @@ def load_fq_daily():
 
     # 获取日期时间
     dateinfo = exeQuery(cur, 'select symbol, maxdate,mindate FROM data.id_list where source in (\'his_etf\',\'his_stk\',\'his_lof\')  order by symbol').fetchall()
+
     # dateinfo = exeQuery(cur, 'select symbol, max(date),min(date) FROM data.his_stk_fq where symbol =\'002456\'').fetchall()
     edate = time.strftime('%Y-%m-%d', time.localtime(time.time()))
 
@@ -54,15 +55,24 @@ def load_fq_daily():
         except Exception as e:
             logging.info(e)
 
-        for j in range(0,len(hfqdata)):
-            qfqvalue = str(qfqdata.values[j][:5]).replace('\' \'','\', \'').replace('[','(').replace(']','')
-            hfqvalue = str(hfqdata.values[j][1:5]).replace('\' \'','\', \'').replace('[','').replace(']','')
+        for j in range(0,len(qfqdata)):
+            qfqvalue = '(\''
+            hfqvalue = ''
+            for k in range(0,len(qfqdata.values[j])-2):
+                qfqvalue = qfqvalue + ',\'' + str(qfqdata.values[j][k]) + '\''
+            qfqvalue = qfqvalue.replace('(\',\'', '(\'')
+
+            for h in range(1, len(qfqdata.values[j])-2):
+                hfqvalue = hfqvalue + ',\'' + str(hfqdata.values[j][h]) + '\''
+            hfqvalue = hfqvalue.replace('(\',\'', '(\'')
+
             insertsql = 'insert into data.his_stk_fq (date,openprice_q,closeprice_q,highprice_q,lowprice_q,openprice_h,closeprice_h,highprice_h,lowprice_h,symbol) values ' + qfqvalue +',' +   hfqvalue + ',\'' + hfqdata.values[j][6] + '\');'
+            insertsql = insertsql.replace(',,',',')
+
             try:
                 conn.cursor().execute(insertsql)
             except Exception as e:
                 logging.info(e)
-                # logging.info(insertsql)
         conn.commit();
     logging.info(dateinfo[i][0] + ' is loaded into database.')
 
@@ -73,37 +83,31 @@ def refresh_qfq():
     # 获取日期时间
     dateinfo = exeQuery(cur, 'select symbol, max(date),min(date) FROM data.his_stk_fq group by symbol order by symbol').fetchall()
     # dateinfo = exeQuery(cur, 'select symbol, max(date),min(date) FROM data.his_stk_fq where symbol =\'002456\'').fetchall()
-
     # 前复权数据历史全刷新
     for i in range(0,len(dateinfo)):
         years = int(int(str(dateinfo[i][1] - dateinfo[i][2]).replace(' days, 0:00:00', '')) / 365) + 1
+
         for j in range(0, years):
             sdate = dateinfo[i][2] + j * datetime.timedelta(days=365)
             enddate = dateinfo[i][2] + (j + 1) * datetime.timedelta(days=365)
-
             if sdate > enddate:
                 continue
-            # try:
-            #     hfqdata = ts.get_k_data(dateinfo[i][0], start=sdate, end=enddate, autype='hfq');
-            # except Exception as e:
-            #     logging.info(e)
             try:
-                qfqdata = ts.get_k_data(dateinfo[i][0], start=sdate, end=enddate);
+                qfqdata = ts.get_k_data(dateinfo[i][0], start=str(sdate), end=str(enddate));
             except Exception as e:
                 logging.info(e)
-            for j in range(0,len(qfqdata)):
-                qfqvalue = str(qfqdata.values[j][:5]).replace('\' \'','\', \'').replace('[','(').replace(']','')
-    #             hfqvalue = str(hfqdata.values[j][1:5]).replace('\' \'','\', \'').replace('[','').replace(']','')
-                insertsql = 'insert into data.his_stk_fq (date,openprice_q,closeprice_q,highprice_q,lowprice_q,symbol) values ' + qfqvalue +',\'' + qfqdata.values[j][6] + '\') ON DUPLICATE KEY UPDATE \
-                openprice_q =' + qfqdata.values[j][1] +',' + '\
-                closeprice_q =' + qfqdata.values[j][2] +','+ '\
-                highprice_q =' + qfqdata.values[j][3] +','  + '\
-                lowprice_q =' + qfqdata.values[j][4] +';'  #+ '\
-                # openprice_h =' + hfqdata.values[j][1] +','  + '\
-                # closeprice_h =' + hfqdata.values[j][2] +','  + '\
-                # highprice_h =' + hfqdata.values[j][3] +','  + '\
-                # lowprice_h =' + hfqdata.values[j][4] +';'
 
+            for k in range(0,len(qfqdata)):
+                qfqvalue = '(\''
+                for h in range(0,len(qfqdata.values[k])-2):
+                    qfqvalue = qfqvalue + ',\''+ str(qfqdata.values[k][h]) + '\''
+                qfqvalue = qfqvalue.replace('(\',\'','(\'')
+                insertsql = 'insert into data.his_stk_fq (date,openprice_q,closeprice_q,highprice_q,lowprice_q,symbol) values ' + qfqvalue + ',\''+ str(qfqdata.values[k][-1])+'\') ON DUPLICATE KEY UPDATE \
+                    openprice_q =' + str(qfqdata.values[k][1]) +',' + '\
+                    closeprice_q =' + str(qfqdata.values[k][2]) +','+ '\
+                    highprice_q =' + str(qfqdata.values[k][3]) +','  + '\
+                    lowprice_q =' + str(qfqdata.values[k][4]) +';'  #+ '\
+                # logging.info(insertsql)
                 try:
                     conn.cursor().execute(insertsql)
                 except Exception as e:
@@ -116,5 +120,5 @@ def refresh_qfq():
     connClose(conn, cur)
     logging.info('Loading is finished at ' + str(time.strftime('%Y%m%d_%H%M%S',time.localtime(time.time()))))
 
-load_fq_daily()
-# refresh_qfq()
+# load_fq_daily()
+refresh_qfq()

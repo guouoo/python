@@ -51,9 +51,12 @@ def load5minsdata():
             if dateinfo[r][1].strftime("%Y-%m-%d %H:%S:%M")  >=  kdata.values[j][0]:
                # logging.info(dateinfo[r][1].strftime("%Y-%m-%d %H:%S:%M") + ' >= ' + kdata.values[j][0])
                continue
-            minsdata = str(kdata.values[j]).replace('\' \'','\', \'').replace('[','(').replace(']',');')
-            intsql = 'insert into data.his_5mins (datetime,openprice,closeprice,highprice,lowprice,volume,symbol) values ' + minsdata;
-
+            minsdata = '(\''
+            for k in range(0,len(kdata.values[j])):
+                 minsdata = minsdata + ',\'' + str(kdata.values[j][k]) + '\''
+            minsdata = minsdata.replace('(\',\'','(\'')
+            intsql = 'insert into data.his_5mins (datetime,openprice,closeprice,highprice,lowprice,volume,symbol) values ' + minsdata + ');'
+            # logging.info(intsql)
             try: # 数据插入
                 conn.cursor().execute(intsql)
             except Exception as e:
