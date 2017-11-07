@@ -13,7 +13,7 @@ logging.basicConfig(
     format="%(levelname)s: %(message)s"
 )
 
-sdate = '2010-01-01'
-enddate = '2011-01-01'
-qfqdata = ts.get_k_data('002456', start=sdate, end=enddate);
-logging.info(qfqdata)
+fd = ts.Bond()
+df = fd.BondCoupon(ticker='000001', field='secShortName,perValueDate,refRatePer,coupon')
+logging.info(fd)
+logging.info(df)

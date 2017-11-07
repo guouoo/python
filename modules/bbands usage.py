@@ -12,8 +12,6 @@ import pymysql
 import matplotlib.pyplot as plt
 from matplotlib.dates import DateFormatter, WeekdayLocator, DayLocator, MONDAY,YEARLY,date2num
 from mpl_finance import candlestick_ohlc  as candlestick
-
-
 import numpy as np
 
 logging.basicConfig(

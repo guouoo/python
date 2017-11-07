@@ -5,7 +5,7 @@ from mpl_finance import candlestick_ohlc
 import tushare as ts
 import talib as ta
 
-bars = ts.get_h_data('002456', start='2017-06-12', end='2017-10-10')
+bars = ts.get_h_data('002456', start='2017-01-01', end='2017-10-12')
 bars= bars.sort_index(axis=0, level=None, ascending=True)
 bars = bars.shift(23, freq='H')
 width = 0.5 # K线柱体宽度

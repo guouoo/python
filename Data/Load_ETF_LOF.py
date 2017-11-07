@@ -60,15 +60,17 @@ def LoadStockHistory(list):
         if sdate >  edate:
            continue
         try:
-            pricedata = ts.get_k_data(dateinfo[k][0], ktype='D', start=sdate, end=edate);
-
+            pricedata = ts.get_k_data(dateinfo[k][0], ktype='D', start=str(sdate), end=str(edate));
         except Exception as e:
             logging.info(e)
 
         for h in range(0,len(pricedata)):
-            values = str(pricedata.values[h]).replace('\' \'','\', \'').replace('[','').replace(']',');')
-            insql = 'insert into ' + list + ' (date,openprice,closeprice,highprice,lowprice,volume,symbol) values (' + values
-            logging.info(insql)
+            daily_data = '(\''
+            for k in range(0,len(pricedata.values[h])):
+                daily_data = daily_data + ',\'' + str(pricedata.values[h][k]) + '\''
+            daily_data = daily_data.replace('(\',\'','(\'')
+            insql = 'insert into ' + list + ' (date,openprice,closeprice,highprice,lowprice,volume,symbol) values ' + daily_data + ');'
+            # logging.info(insql)
             try:
                 conn.cursor().execute(insql)
             except Exception as e:

@@ -81,7 +81,7 @@ def load_fq_daily():
 
 def refresh_qfq():
     # 获取日期时间
-    dateinfo = exeQuery(cur, 'select symbol, max(date),min(date) FROM data.his_stk_fq group by symbol order by symbol').fetchall()
+    dateinfo = exeQuery(cur, 'select symbol, max(date),min(date) FROM data.his_stk_fq where symbol > \'159916\' group by symbol order by symbol').fetchall()
     # dateinfo = exeQuery(cur, 'select symbol, max(date),min(date) FROM data.his_stk_fq where symbol =\'002456\'').fetchall()
     # 前复权数据历史全刷新
     for i in range(0,len(dateinfo)):
@@ -120,5 +120,5 @@ def refresh_qfq():
     connClose(conn, cur)
     logging.info('Loading is finished at ' + str(time.strftime('%Y%m%d_%H%M%S',time.localtime(time.time()))))
 
-# load_fq_daily()
-refresh_qfq()
+load_fq_daily()
+# refresh_qfq()
