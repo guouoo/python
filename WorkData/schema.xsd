@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Performance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="PriceHistory"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PriceHistory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="PriceDetail"/>
+      </xs:sequence>
+      <xs:attribute name="OriginalReported" use="required" type="xs:boolean"/>
+      <xs:attribute name="_Id" use="required" type="xs:NMTOKEN"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PriceDetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="EndDate" type="xs:date"/>
+        <xs:element name="ClosePrice" type="xs:decimal"/>
+        <xs:element name="OpenPrice" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+        <xs:element name="HighPrice" minOccurs="0" maxOccurs="1" type="xs:decimal"/>
+        <xs:element name="LowPrice" minOccurs="0" maxOccurs="1"  type="xs:decimal"/>
+        <xs:element name="Volume" minOccurs="0" maxOccurs="1">
+          <xs:simpleType>
+             <xs:union memberTypes="unionType1 unionType2"/>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="unionType1">
+    <xs:restriction base="xs:integer"/>
+  </xs:simpleType>
+  <xs:simpleType name="unionType2">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+</xs:schema>

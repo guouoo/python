@@ -43,7 +43,6 @@ def DownloadPrice(table):
 
     for k in range(0,len(symbolList)) :
         startdate = str(maxdate[symbolList[k]]+datetime.timedelta(days = 1)).replace('-','')
-        # print(symbolList[k] + ' ' + startdate + ' ' + enddate )
         if startdate >= enddate:
             logging.info(symbolList[k] + ' is ignored as ' +str(startdate))
             continue
@@ -83,11 +82,6 @@ def FormatFiles():
         stockprice = open(path+filename, mode='r', encoding=None, errors=None, newline=None, closefd=True, opener=None)
         content = stockprice.readlines()
         del content[0]
-        # try:
-        #     del content[0]
-        # except Exception as e:
-        #     logging.info(e)
-
         for r in range(0,len(content)):
             content[r] = re.sub('\'','',content[r]).strip()
             list = content[r].split(',')
@@ -95,8 +89,6 @@ def FormatFiles():
             del list[6:8]
             del list[7]
             del list[8]
-#             for i in range(3,16):
-#                 list[i] = formatnumber(list[i])
             line = str(list).replace('[','(').replace(']',')').replace('None','0')
             content[r] = line
         stockprice.close()

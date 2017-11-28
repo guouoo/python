@@ -22,15 +22,28 @@ Created on Jul 15, 2015
 
 import urllib.request
 import http.cookiejar
+import pymssql
+import logging as log
+import re
+import http.cookiejar as cookielib
+import xml.dom.minidom
+import requests
+from lxml import etree
+import os
+
+import gevent
+from gevent import monkey, pool; monkey.patch_all()
+import time
+from xml.dom.minidom import parse
+import xml.dom.minidom
 
 
-cookie = http.cookiejar.CookieJar()
 
-handler=urllib.request.HTTPCookieProcessor(cookie)
+log.basicConfig(
+    level=log.DEBUG,
+    format="%(levelname)s: %(message)s"
+)
 
-opener = urllib.request.build_opener(handler)
+starttime = time.time()
 
-response = opener.open('http://www.baidu.com')
-for item in cookie:
-    print ('Name = '+item.name)
-    print ('Value = '+item.value)
+log.info(starttime)

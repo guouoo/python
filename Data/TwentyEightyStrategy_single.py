@@ -72,7 +72,7 @@ sqlcontent = cur.fetchall()
 # logging.info(sqlcontent)
 
 tempdays = []
-daylist=[8,10,20]
+daylist=[8,20,22]
 for i in daylist:
     tempdays.append(datetime.date.isoformat(sqlcontent[i-1][0]))
 days = tuple(tempdays)

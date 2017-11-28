@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba2669d4-cf9b-483c-9182-07a4b3de25da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/KDJ_Strategy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WorkData/DownloadPrice.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WorkData/Scrapy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WorkData/list2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WorkData/list3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WorkData/schema.xsd" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/HelloPythonWorld/ScrapySimulate/Scrapy.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Load_ETF_LOF.py" afterPath="$PROJECT_DIR$/Data/Load_ETF_LOF.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Load_fqdata.py" afterPath="$PROJECT_DIR$/Data/Load_fqdata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/KDJ.py" afterPath="$PROJECT_DIR$/modules/KDJ.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/bbands usage.py" afterPath="$PROJECT_DIR$/modules/bbands usage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/test.py" afterPath="$PROJECT_DIR$/modules/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/Load_Idx_stk.py" afterPath="$PROJECT_DIR$/Data/Load_Idx_stk.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" afterPath="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WorkData/list" afterPath="$PROJECT_DIR$/WorkData/list" />
     </list>
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,90 +31,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bbands usage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/bbands usage.py">
+      <file leaf-file-name="DownloadPrice.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WorkData/DownloadPrice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="17" />
+            <state relative-caret-position="691">
+              <caret line="141" column="41" lean-forward="false" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
               <folding>
-                <element signature="e#83#102#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KDJ_Strategy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/KDJ_Strategy.py">
+      <file leaf-file-name="Scrapy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WorkData/Scrapy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="501">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#496#517#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/test.py">
+      <file leaf-file-name="list" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WorkData/list">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="-190">
+              <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Load_Idx_stk.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/Load_Idx_stk.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-751">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#63#84#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Load_5mins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/Load_5mins.py">
+      <file leaf-file-name="list2" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WorkData/list2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="61" column="34" lean-forward="true" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+            <state relative-caret-position="555">
+              <caret line="1095" column="10" lean-forward="false" selection-start-line="1095" selection-start-column="10" selection-end-line="1095" selection-end-column="10" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Load_fqdata.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/Load_fqdata.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Query_Lastest_Records.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data/Query_Lastest_Records.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Load_1min.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/Load_1min.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KDJ.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/KDJ.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -130,7 +101,13 @@
       <find>my_read_file</find>
       <find>rsi</find>
       <find>强弱</find>
+      <find>simpletype</find>
+      <find>* 20</find>
     </findStrings>
+    <replaceStrings>
+      <replace>simpleType</replace>
+      <replace>* 6</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -150,13 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WorkData/list" />
-        <option value="$PROJECT_DIR$/WorkData/RefreshData.py" />
-        <option value="$PROJECT_DIR$/WorkData/ConnectDB.py" />
-        <option value="$PROJECT_DIR$/WorkData/SplitFile.py" />
-        <option value="$PROJECT_DIR$/WorkData/test.py" />
-        <option value="$PROJECT_DIR$/WorkData/Color_test.py" />
-        <option value="$PROJECT_DIR$/Data/nav_lof" />
         <option value="$PROJECT_DIR$/Data/PreLoad_ETF_LOF_NAV.py" />
         <option value="$PROJECT_DIR$/Data/his_lof" />
         <option value="$PROJECT_DIR$/Data/log/data_update/20170727_101414.txt" />
@@ -185,12 +155,10 @@
         <option value="$PROJECT_DIR$/Data/TwentyEightTest.py" />
         <option value="$PROJECT_DIR$/modules/connectdb.py" />
         <option value="$PROJECT_DIR$/modules/__init__.py" />
-        <option value="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
         <option value="$PROJECT_DIR$/modules/TripleScreen.py" />
         <option value="$PROJECT_DIR$/modules/RIS_WR.py" />
         <option value="$PROJECT_DIR$/modules/subplot.py" />
         <option value="$PROJECT_DIR$/modules/MonteCarlo_round.py" />
-        <option value="$PROJECT_DIR$/Data/Load_Idx_stk.py" />
         <option value="$PROJECT_DIR$/Data/clean_logs.py" />
         <option value="$PROJECT_DIR$/Data/log/data_update/20170918_153243_idxstk.txt" />
         <option value="$PROJECT_DIR$/modules/k_patterns.py" />
@@ -201,14 +169,23 @@
         <option value="$PROJECT_DIR$/modules/KDJ_Strategy.py" />
         <option value="$PROJECT_DIR$/modules/test.py" />
         <option value="$PROJECT_DIR$/Data/Load_ETF_LOF.py" />
+        <option value="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
+        <option value="$PROJECT_DIR$/HelloPythonWorld/ScrapySimulate/Scrapy.py" />
+        <option value="$PROJECT_DIR$/WorkData/list" />
+        <option value="$PROJECT_DIR$/WorkData/schema.xsd" />
+        <option value="$PROJECT_DIR$/WorkData/list3" />
+        <option value="$PROJECT_DIR$/WorkData/Scrapy.py" />
+        <option value="$PROJECT_DIR$/WorkData/list2" />
+        <option value="$PROJECT_DIR$/WorkData/DownloadPrice.py" />
+        <option value="$PROJECT_DIR$/Data/Load_Idx_stk.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1020" />
-    <option name="y" value="134" />
-    <option name="width" value="1288" />
-    <option name="height" value="1032" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1032" />
+    <option name="height" value="1244" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -247,7 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,55 +237,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,19 +255,21 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tguo\Documents\1. Python\code\Data" />
-      <recent name="C:\Users\tguo\Documents\Python\code\Data\pic" />
-      <recent name="C:\Users\tguo\Documents\Python\code\Data\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tguo\Documents\Python\code\WorkData" />
       <recent name="C:\Users\tguo\Documents\Python\code\modules" />
       <recent name="C:\Users\tguo\Documents\Python\code\Data\src" />
       <recent name="C:\Users\tguo\Documents\Python\code\Data" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tguo\Documents\Python\code\WorkData" />
+      <recent name="C:\Users\tguo\Documents\1. Python\code\Data" />
+      <recent name="C:\Users\tguo\Documents\Python\code\Data\pic" />
+      <recent name="C:\Users\tguo\Documents\Python\code\Data\src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.Load_fqdata">
-    <configuration default="false" name="Load_1min" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Load_Idx_stk">
+    <configuration default="false" name="TwentyEightyStrategy_single" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -348,63 +281,63 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/Load_1min.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Load_5mins" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="DownloadPrice" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkData" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/Load_5mins.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkData/DownloadPrice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Load_ETF_LOF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Scrapy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HelloPythonWorld/ScrapySimulate" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/Load_ETF_LOF.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\tguo\Documents\Python\code\WorkData\Scrapy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Load_ETF_LOF_NAV" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Scrapy (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WorkData" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/Load_ETF_LOF_NAV.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WorkData/Scrapy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Load_fqdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Load_Idx_stk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -416,7 +349,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/Load_fqdata.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/Load_Idx_stk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -574,19 +507,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.bbands usage" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Load_1min" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Load_5mins" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Load_ETF_LOF" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Load_ETF_LOF_NAV" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Load_fqdata" />
+      <item index="1" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_single" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DownloadPrice" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Scrapy" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Scrapy (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Load_Idx_stk" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Load_fqdata" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Load_5mins" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Load_1min" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Load_ETF_LOF" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Load_ETF_LOF_NAV" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Load_Idx_stk" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DownloadPrice" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Scrapy (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Scrapy" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TwentyEightyStrategy_single" />
       </list>
     </recent_temporary>
   </component>
@@ -771,19 +704,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1020" y="134" width="1288" height="1032" extended-state="6" />
+    <frame x="-4" y="-4" width="1032" height="1244" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1429706" sideWeight="0.49498746" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18544367" sideWeight="0.49498746" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38556933" sideWeight="0.5067514" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299725" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43517473" sideWeight="0.4932486" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15254237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24385805" sideWeight="0.4932486" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15250199" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939035" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20638086" sideWeight="0.5050125" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42896426" sideWeight="0.60285944" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42841038" sideWeight="0.60285944" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -902,11 +835,16 @@
           <line>81</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/HelloPythonWorld/ScrapySimulate/qiushibaike.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -917,41 +855,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Stock/Load_ETF_LOF_ClassFund.py" />
-    <entry file="file://$PROJECT_DIR$/Stock/TwentyEightyStrategy.py" />
-    <entry file="file://$PROJECT_DIR$/Stock/TwentyEightyStrategy_single.py" />
-    <entry file="file://$PROJECT_DIR$/modules/BBANDS.py" />
-    <entry file="file://$PROJECT_DIR$/modules/render.html" />
-    <entry file="file://$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stock/TwentyEightTest.py" />
-    <entry file="file://$PROJECT_DIR$/modules/20170913_160934.log" />
-    <entry file="file://$PROJECT_DIR$/modules/20170913_161445.log" />
-    <entry file="file://$PROJECT_DIR$/modules/20170913_161402.log" />
-    <entry file="file://$PROJECT_DIR$/modules/20170913_162337.log" />
-    <entry file="file://$PROJECT_DIR$/modules/20170913_163847.log" />
-    <entry file="file://$PROJECT_DIR$/modules/20170913_162423.log" />
-    <entry file="file://$PROJECT_DIR$/modules/20170913_172254.log" />
-    <entry file="file://$PROJECT_DIR$/modules/20170914_093401.log" />
-    <entry file="file://$PROJECT_DIR$/modules/LoadLargeFileSize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="101" column="8" lean-forward="false" selection-start-line="90" selection-start-column="3" selection-end-line="101" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/PreLoadData_Stock_Idx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1062,13 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/RIS_WR.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -1080,9 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="17" />
-          <folding>
-            <element signature="e#83#102#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,15 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Load_Idx_stk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,17 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1132,9 +1004,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-850">
           <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#64#84#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Query_Lastest_Records.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Load_fqdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2242">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Load_5mins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/TwentyEightyStrategy_single.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/KDJ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1143,12 +1047,50 @@
         <state relative-caret-position="19">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Load_1min.py">
+    <entry file="file://$PROJECT_DIR$/HelloPythonWorld/ScrapySimulate/qiushibaike.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="39" selection-end-column="28" />
+          <folding>
+            <element signature="e#49#70#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloPythonWorld/ScrapySimulate/QSBK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-979">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloPythonWorld/ScrapySimulate/Jandan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="22" column="58" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WorkData/cookies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WorkData/schema.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20171123_184022_fq.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1156,37 +1098,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/KDJ.py">
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20171123_185147_1m.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="22" column="59" lean-forward="false" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
+        <state relative-caret-position="304">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20171123_194147_5m.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20171123_213023.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20171123_221016_NAV.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Load_1min.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WorkData/list3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WorkData/list2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="1095" column="10" lean-forward="false" selection-start-line="1095" selection-start-column="10" selection-end-line="1095" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/log/data_update/20171127_213029.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WorkData/list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WorkData/Scrapy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#496#517#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Load_5mins.py">
+    <entry file="file://$PROJECT_DIR$/modules/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="61" column="34" lean-forward="true" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="342">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Load_fqdata.py">
+    <entry file="file://$PROJECT_DIR$/WorkData/ConnectDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1052">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="97" selection-end-column="20" />
+          <folding>
+            <element signature="e#1#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Query_Lastest_Records.py">
+    <entry file="file://$PROJECT_DIR$/WorkData/DownloadPrice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="691">
+          <caret line="141" column="41" lean-forward="false" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Load_Idx_stk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-751">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#63#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
